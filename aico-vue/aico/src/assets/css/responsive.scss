@@ -1,0 +1,8602 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  // Default CSS
+  body {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .container-fluid {
+    padding: {
+      left: calc(var(--bs-gutter-x) * 0.5);
+      right: calc(var(--bs-gutter-x) * 0.5);
+    }
+  }
+  .ptb-100 {
+    padding: {
+      top: 60px;
+      bottom: 60px;
+    }
+  }
+  .pt-100 {
+    padding-top: 60px;
+  }
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  .ptb-75 {
+    padding: {
+      top: 35px;
+      bottom: 35px;
+    }
+  }
+  .pt-75 {
+    padding-top: 35px;
+  }
+  .pb-75 {
+    padding-bottom: 35px;
+  }
+  .ptb-50 {
+    padding: {
+      top: 35px;
+      bottom: 35px;
+    }
+  }
+  .pt-50 {
+    padding-top: 35px;
+  }
+  .pb-50 {
+    padding-bottom: 35px;
+  }
+  .ptb-120 {
+    padding: {
+      top: 60px;
+      bottom: 60px;
+    }
+  }
+  .pt-120 {
+    padding-top: 60px;
+  }
+  .pb-120 {
+    padding-bottom: 60px;
+  }
+  .ptb-95 {
+    padding: {
+      top: 35px;
+      bottom: 35px;
+    }
+  }
+  .pt-95 {
+    padding-top: 35px;
+  }
+  .pb-95 {
+    padding-bottom: 35px;
+  }
+  .ptb-80 {
+    padding: {
+      top: 50px;
+      bottom: 50px;
+    }
+  }
+  .pt-80 {
+    padding-top: 50px;
+  }
+  .pb-80 {
+    padding-bottom: 50px;
+  }
+  .ptb-55 {
+    padding: {
+      top: 25px;
+      bottom: 25px;
+    }
+  }
+  .pt-55 {
+    padding-top: 25px;
+  }
+  .pb-55 {
+    padding-bottom: 25px;
+  }
+
+  // Form Control
+  .form-control {
+    font-size: 14px;
+    height: 50px;
+    padding: {
+      left: 15px;
+      right: 15px;
+    }
+  }
+  textarea.form-control {
+    padding-top: 15px;
+  }
+
+  // Form Select
+  .form-select {
+    font-size: 14px;
+    height: 50px;
+    padding: {
+      left: 15px;
+      right: 15px;
+    }
+  }
+
+  // Default Btn
+  .default-btn {
+    padding: 13px 47px 13px 20px;
+    font-size: 14px;
+  }
+
+  // Section Title
+  .section-title {
+    margin-bottom: 30px;
+
+    .sub-title {
+      font-size: 14px;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+    h2 {
+      font-size: 25px;
+      max-width: 100%;
+      letter-spacing: -1px;
+
+      &.mw-800 {
+        max-width: 100%;
+      }
+      &.mw-820 {
+        max-width: 100%;
+      }
+    }
+    &.mb-30 {
+      margin-bottom: 25px;
+    }
+  }
+
+  // Navbar Area CSS
+  .navbar {
+    padding: {
+      top: 18px;
+      bottom: 18px;
+    }
+    .others-option {
+      .option-item {
+        margin-left: 30px;
+
+        .search-btn {
+          transition: var(--transition);
+          margin-right: -2px;
+          color: #a498ad;
+          font-size: 22px;
+          top: 3px;
+
+          &:hover {
+            color: var(--whiteColor);
+          }
+        }
+        .cart-btn {
+          color: #a498ad;
+          font-size: 25px;
+          top: 3px;
+
+          i {
+            line-height: 1;
+          }
+          span {
+            top: -15px;
+            right: -15px;
+            width: 26px;
+            height: 26px;
+            font-size: 12px;
+            line-height: 26px;
+            text-align: center;
+            border-radius: 50%;
+            position: absolute;
+            color: var(--whiteColor);
+            background-color: var(--primaryColor);
+          }
+          &:hover {
+            color: var(--whiteColor);
+          }
+        }
+        .link-btn {
+          font-size: 16px;
+          background: var(--secondaryGradientColor);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+    .navbar-toggler {
+      color: var(--whiteColor);
+      font-size: inherit;
+      box-shadow: unset;
+      border: none;
+      padding: 0;
+
+      .burger-menu {
+        cursor: pointer;
+
+        span {
+          height: 3px;
+          width: 30px;
+          margin: 5px 0;
+          display: block;
+          background: var(--whiteColor);
+        }
+      }
+    }
+    &.sticky {
+      padding: {
+        top: 15px;
+        bottom: 15px;
+      }
+    }
+  }
+
+  // Responsive Navbar
+  .responsive-navbar {
+    .offcanvas-header {
+      padding: 20px;
+
+      .close-btn {
+        font-size: 18px;
+      }
+    }
+    .offcanvas-body {
+      padding: 20px;
+
+      ul {
+        &.responsive-menu {
+          .responsive-menu-list {
+            line-height: 50px;
+            height: 50px;
+
+            a {
+              font-size: 15px;
+            }
+            .responsive-menu-items {
+              a {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+      .others-option {
+        margin-top: 35px;
+
+        .option-item {
+          display: inline-block;
+          margin-left: 20px;
+
+          .cart-btn {
+            top: 6px;
+
+            span {
+              top: -10px;
+              width: 18px;
+              right: -10px;
+              height: 18px;
+              font-size: 10px;
+              line-height: 18px;
+            }
+          }
+          .link-btn {
+            font-size: 15px;
+          }
+          &:last-child {
+            display: block;
+            margin: {
+              left: 0;
+              top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Search Modal
+  .searchModal {
+    .modal-dialog {
+      padding: {
+        top: 15px;
+        bottom: 15px;
+      }
+      .modal-content {
+        max-width: 100%;
+
+        form {
+          .input-search {
+            height: 50px;
+            font-size: 14px;
+            padding: {
+              left: 15px;
+              right: 15px;
+            }
+          }
+          button {
+            width: 45px;
+
+            i {
+              font-size: 19px;
+            }
+          }
+        }
+        .btn-close {
+          bottom: -50px;
+          top: auto;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  // Banner Area CSS
+  .banner-area {
+    padding-top: 60px;
+
+    &::before {
+      height: 60px;
+    }
+  }
+  .banner-content {
+    h1 {
+      font-size: 30px;
+      line-height: 1.2;
+      margin-bottom: 15px;
+      letter-spacing: -0.8px;
+
+      br {
+        display: none;
+      }
+    }
+    p {
+      max-width: 100%;
+    }
+    .default-btn {
+      margin-top: 3px;
+    }
+  }
+  .banner-search {
+    max-width: 100%;
+    margin: {
+      left: 0;
+      top: 25px;
+    }
+    form {
+      .input-search {
+        height: 48px;
+        font-size: 13px;
+        padding: {
+          left: 15px;
+          right: 15px;
+        }
+      }
+      button {
+        font-size: 13px;
+        padding: 12px 20px;
+        position: relative;
+        margin: {
+          right: 0;
+          top: 10px;
+          bottom: 0;
+        }
+      }
+    }
+    .search-list {
+      margin-top: 10px;
+
+      li {
+        font-size: 13px;
+
+        button {
+          font-size: 9px;
+        }
+      }
+    }
+  }
+  .bannerSwiper {
+    margin-top: 60px;
+  }
+  .bannerSwiper2 {
+    margin-top: 20px;
+  }
+
+  // Main Banner Area CSS
+  .main-banner-image {
+    padding-right: 0;
+    margin-bottom: 25px;
+
+    .box {
+      position: relative;
+      padding: 15px;
+      width: auto;
+      left: 0;
+      top: 0;
+      margin: {
+        top: 15px;
+        bottom: 15px;
+      }
+    }
+    .typewriter {
+      top: 0;
+      left: 0;
+      width: auto;
+      padding: 15px;
+      position: relative;
+    }
+  }
+  .main-banner-content {
+    padding-left: 0;
+    margin-bottom: 0;
+
+    h1 {
+      font-size: 30px;
+      line-height: 1.2;
+      margin-bottom: 15px;
+      letter-spacing: -0.8px;
+    }
+    .default-btn {
+      margin-top: 5px;
+    }
+    div {
+      max-width: 100%;
+      margin: {
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+  .shape3,
+  .shape4,
+  .shape7,
+  .shape6 {
+    display: none;
+  }
+
+  // Banner Posts Area CSS
+  .single-banner-post {
+    .content {
+      padding: 10px;
+
+      .meta {
+        padding: 5px 8px;
+
+        ul {
+          li {
+            margin-right: 15px;
+            font-size: 13.5px;
+
+            .author {
+              img {
+                width: 15px;
+                height: 15px;
+                margin-right: 5px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+      h3 {
+        font-size: 18px;
+        letter-spacing: -0.2px;
+
+        a {
+          padding: 3px 5px;
+          line-height: 1.8;
+        }
+      }
+    }
+  }
+
+  // What We Do Area CSS
+  .what-we-do-image {
+    padding-right: 0;
+
+    .typewriter {
+      top: 0;
+      right: 0;
+      width: auto;
+      margin-top: 25px;
+      padding: 12px 15px;
+      position: relative;
+    }
+  }
+  .what-we-do-content {
+    padding-left: 0;
+    margin-top: 25px;
+
+    .sub-title {
+      font-size: 14px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    h2 {
+      font-size: 25px;
+      line-height: 1.3;
+      margin-bottom: 15px;
+      letter-spacing: -0.7px;
+    }
+    .default-btn {
+      margin-top: 5px;
+    }
+  }
+  .what-we-do-img {
+    padding-right: 0;
+
+    img {
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+    .typewriter {
+      top: 0;
+      right: 0;
+      width: auto;
+      margin-top: 25px;
+      padding: 12px 15px;
+      position: relative;
+    }
+    &::before {
+      display: none;
+    }
+  }
+
+  // Features Area CSS
+  .single-feature-box {
+    padding: 30px 20px;
+    text-align: center;
+
+    img {
+      top: 0;
+      left: 0;
+      position: relative;
+      margin-bottom: 17px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  // Services Area CSS
+  .services-tabs {
+    .tabs {
+      .nav {
+        &.nav-tabs {
+          max-width: 100%;
+          margin-bottom: 30px;
+          padding: 0 10px 10px;
+          display: block !important;
+
+          .nav-item {
+            margin-top: 10px;
+            display: inline-block;
+
+            .nav-link {
+              font-size: 14px;
+              padding: 4px 10px;
+            }
+          }
+          &.mw-580 {
+            max-width: 100%;
+          }
+        }
+      }
+      .content {
+        margin-right: 0;
+
+        h3 {
+          letter-spacing: -0.7px;
+          margin-bottom: 17px;
+          line-height: 1.3;
+          font-size: 24px;
+        }
+      }
+      .images {
+        margin-top: 25px;
+        padding: {
+          left: 0;
+          right: 40px;
+          bottom: 60px;
+        }
+        &::before {
+          margin: {
+            right: 0;
+            left: 0;
+            top: 0;
+          }
+        }
+        img {
+          &:nth-child(2) {
+            width: 60px;
+            top: 75px;
+            right: 0;
+          }
+          &:nth-child(3) {
+            right: 0;
+            width: 100px;
+          }
+        }
+      }
+      .description {
+        padding-top: 20px;
+        margin: {
+          left: 0;
+          top: 25px;
+        }
+        p {
+          margin-bottom: 15px;
+        }
+      }
+      .tab-content {
+        .shape {
+          display: none;
+        }
+      }
+    }
+  }
+  .single-service-box {
+    .image {
+      margin-bottom: 15px;
+    }
+    h3 {
+      font-size: 18px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  // Service Details Area CSS
+  .service-details-text {
+    max-width: 100%;
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+
+  // Text Slider Area CSS
+  .text-slider-area {
+    .swiper-wrapper {
+      .swiper-slide {
+        div {
+          letter-spacing: -1px;
+          padding-right: 35px;
+          font-size: 30px;
+          margin: {
+            top: -10px;
+            bottom: -2px;
+          }
+          &::before {
+            width: 10px;
+            height: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  // Portfolio Area CSS
+  .portfolio-items {
+    .col {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .explore-more-btn {
+    margin-top: 20px;
+
+    a {
+      font-size: 14px;
+      padding-right: 23px;
+    }
+  }
+
+  // Subscribe Area CSS
+  .subscribe-inner-box {
+    padding: 60px 20px;
+
+    .content {
+      .sub-title {
+        font-size: 14px;
+        margin-bottom: 9px;
+        letter-spacing: 1px;
+      }
+      h2 {
+        font-size: 25px;
+        line-height: 1.3;
+        letter-spacing: -0.7px;
+      }
+    }
+    .newsletter-form {
+      max-width: 100%;
+      margin: {
+        left: 0;
+        top: 20px;
+      }
+      .form-group {
+        margin-bottom: 15px;
+
+        .input-newsletter {
+          height: 48px;
+          font-size: 13px;
+          padding: {
+            left: 14px;
+            right: 14px;
+          }
+        }
+        .button {
+          width: 45px;
+
+          i {
+            margin-top: -2px;
+          }
+        }
+      }
+      .form-check {
+        padding-left: 25px;
+        font-size: 13.5px;
+
+        .form-check-input {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+    &.style-two {
+      padding: {
+        left: 20px;
+        right: 20px;
+      }
+      .newsletter-form {
+        max-width: 100%;
+      }
+      .shape {
+        display: none;
+      }
+    }
+  }
+  .shape1 {
+    display: none;
+  }
+
+  // Funfacts Area CSS
+  .funfacts-area {
+    .d-flex {
+      flex-wrap: wrap;
+      justify-content: center !important;
+      margin: {
+        left: -10px;
+        right: -10px;
+      }
+      .single-funfact-box {
+        flex: 0 0 auto;
+        width: 50%;
+        padding: {
+          left: 10px;
+          right: 10px;
+        }
+      }
+      .single-funfact-item {
+        flex: 0 0 auto;
+        width: 50%;
+        padding: {
+          left: 10px;
+          right: 10px;
+        }
+      }
+    }
+  }
+  .single-funfact-box {
+    text-align: center;
+
+    .number {
+      font-size: 40px;
+      letter-spacing: -2px;
+      margin: {
+        top: -17px;
+        bottom: -2px;
+      }
+    }
+    p {
+      max-width: 100%;
+    }
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+  .single-funfact-item {
+    .number {
+      font-size: 40px;
+      margin-bottom: 8px;
+      letter-spacing: -2px;
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .funfacts-shape1,
+  .funfacts-shape2 {
+    display: none;
+  }
+
+  // Why Choose Us Area CSS
+  .why-choose-left-content {
+    .image {
+      padding: {
+        right: 35px;
+        bottom: 50px;
+      }
+      img {
+        &:nth-child(2) {
+          right: 0;
+          top: auto;
+          bottom: 0;
+          width: 100px;
+        }
+      }
+      &::before {
+        display: none;
+      }
+    }
+    .content {
+      margin-top: 25px;
+
+      h2 {
+        font-size: 25px;
+        line-height: 1.3;
+        margin-bottom: 12px;
+        letter-spacing: -0.7px;
+      }
+      p {
+        max-width: 100%;
+      }
+      .default-btn {
+        margin-top: 5px;
+      }
+    }
+  }
+  .why-choose-right-content {
+    margin-top: 60px;
+    padding-top: 55px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    .content {
+      padding-left: 0;
+
+      .sub-title {
+        font-size: 14px;
+        margin-bottom: 8px;
+        letter-spacing: 1px;
+      }
+      h2 {
+        font-size: 25px;
+        line-height: 1.3;
+        margin-bottom: 12px;
+        letter-spacing: -0.7px;
+      }
+    }
+    .image {
+      margin-top: 25px;
+      padding-left: 0;
+
+      .box {
+        left: 0;
+        bottom: 0;
+        width: auto;
+        padding: 15px;
+        margin-top: 25px;
+        position: relative;
+
+        span {
+          font-size: 14px;
+          margin-bottom: 15px;
+          padding-bottom: 15px;
+        }
+        p {
+          margin-bottom: 15px;
+          padding-bottom: 15px;
+        }
+        .copy-btn {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .single-why-choose-box {
+    .image {
+      height: 260px;
+    }
+    h3 {
+      font-size: 17px;
+      line-height: 1.5;
+      margin-top: 15px;
+      letter-spacing: -0.5px;
+    }
+    &:hover {
+      .image {
+        img {
+          transform: translateY(-89px);
+        }
+      }
+    }
+  }
+  .col-lg-3 {
+    &:nth-child(2),
+    &:nth-child(4),
+    &:nth-child(6),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        h3 {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(7),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        .image {
+          img {
+            transform: translateY(-89px);
+          }
+        }
+        &:hover {
+          .image {
+            img {
+              transform: translateY(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Brands Area CSS
+  .brands-section-title {
+    margin-bottom: 30px;
+
+    span {
+      font-size: 15px;
+    }
+    &.mb-0 {
+      margin-top: 30px;
+    }
+  }
+
+  // FAQ Area CSS
+  .faq-accordion {
+    .accordion {
+      .accordion-item {
+        margin-bottom: 15px;
+
+        .accordion-button {
+          font-size: 15px;
+          padding: 15px 30px 15px 15px;
+
+          &::before {
+            right: 15px;
+          }
+        }
+        .accordion-collapse {
+          .accordion-body {
+            padding: 13px 0 15px;
+            margin: {
+              left: 15px;
+              right: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .faq-image {
+    margin: {
+      top: 25px;
+      bottom: 25px;
+    }
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+
+  // Video Area CSS
+  .video-box {
+    .video-btn {
+      width: 60px;
+      height: 60px;
+      font-size: 20px;
+    }
+  }
+
+  // Integration Area CSS
+  .integration-box {
+    max-width: 100%;
+    margin: {
+      top: 0;
+      bottom: 0;
+    }
+    .cube {
+      top: 0;
+      margin-top: 0;
+      position: relative;
+      transform: translateY(0);
+    }
+    .list {
+      margin-top: 20px;
+
+      div {
+        width: 100px;
+        height: 100px;
+        top: 0 !important;
+        position: relative;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        display: inline-block;
+        margin: {
+          top: 10px;
+          left: 5px;
+          right: 5px;
+        }
+      }
+    }
+    .atar-border {
+      display: none;
+    }
+  }
+  .integration-content {
+    max-width: 100%;
+    margin-top: 25px;
+    padding: 30px 20px 15px;
+
+    .box {
+      padding-left: 32px;
+      margin-bottom: 15px;
+
+      i {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // Chatbot Area CSS
+  .chatbot-inner-box {
+    padding: 60px 20px;
+
+    .content {
+      .sub-title {
+        font-size: 14px;
+        margin-bottom: 9px;
+        letter-spacing: 1px;
+      }
+      h2 {
+        font-size: 25px;
+        line-height: 1.3;
+        margin-bottom: 15px;
+        letter-spacing: -0.7px;
+      }
+      .default-btn {
+        margin-top: 5px;
+      }
+    }
+    .image {
+      margin-top: 25px;
+
+      .typewriter {
+        top: 0;
+        left: 0;
+        width: auto;
+        margin-top: 25px;
+        position: relative;
+        transform: translateY(0);
+        padding: 15px 15px 15px 60px;
+
+        img {
+          top: 15px;
+          left: 15px;
+          width: 35px;
+        }
+      }
+    }
+  }
+
+  // Automation Area CSS
+  .automation-content {
+    padding-right: 0;
+
+    .sub-title {
+      font-size: 14px;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+    h2 {
+      font-size: 25px;
+      line-height: 1.3;
+      margin-bottom: 18px;
+      letter-spacing: -0.7px;
+    }
+  }
+  .automation-image {
+    margin: {
+      top: 25px;
+      bottom: 20px;
+    }
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+  .automation-text {
+    padding-left: 0;
+    margin-top: 0;
+
+    .shape5 {
+      display: none;
+    }
+    .link-btn {
+      margin-top: 3px;
+      font-size: 15px;
+      padding-right: 25px;
+      letter-spacing: -0.28px;
+    }
+  }
+
+  // Pricing Area CSS
+  .pricing-area {
+    .section-title {
+      margin-bottom: 30px;
+    }
+  }
+  .single-pricing-box {
+    .pricing-header {
+      h3 {
+        padding: 10px 15px;
+        font-size: 17px;
+      }
+      .price {
+        margin: {
+          top: 10px;
+          bottom: 10px;
+        }
+        div {
+          letter-spacing: -1px;
+          font-size: 40px;
+        }
+      }
+    }
+    .pricing-features {
+      ul {
+        li {
+          padding-left: 28px;
+          margin-bottom: 14px;
+        }
+      }
+    }
+    .pricing-footer {
+      margin-top: 5px;
+    }
+    &.active {
+      .pricing-header {
+        h3 {
+          padding: {
+            left: 15px;
+            right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  // Team Area CSS
+  .single-team-member {
+    .image {
+      .socials-link {
+        opacity: 1;
+        padding: 10px 15px;
+        visibility: visible;
+
+        a {
+          font-size: 15px;
+          margin: {
+            left: 3px;
+            right: 3px;
+          }
+        }
+      }
+    }
+    h3 {
+      font-size: 18px;
+      letter-spacing: -0.5px;
+      margin: {
+        top: 15px;
+        bottom: 9px;
+      }
+    }
+  }
+
+  // Blog Area CSS
+  .blog-items {
+    margin: {
+      left: calc(-0.5 * var(--bs-gutter-x));
+      right: calc(-0.5 * var(--bs-gutter-x));
+    }
+    .col-lg-4 {
+      padding: {
+        left: calc(var(--bs-gutter-x) * 0.5);
+        right: calc(var(--bs-gutter-x) * 0.5);
+      }
+    }
+  }
+  .single-blog-post {
+    margin-bottom: 25px;
+
+    .content {
+      margin-top: 15px;
+
+      h3 {
+        font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+        letter-spacing: -0.7px;
+      }
+    }
+    &.mb-40 {
+      margin-bottom: 25px;
+    }
+  }
+
+  // Blog Details Area CSS
+  .blog-details-header {
+    padding-right: 0;
+
+    .meta {
+      margin-bottom: 12px;
+      display: block !important;
+
+      li {
+        margin: {
+          right: 0;
+          bottom: 10px;
+        }
+        .author {
+          img {
+            margin-right: 8px;
+          }
+          a {
+            margin-left: 5px;
+          }
+        }
+        &::before {
+          display: none;
+        }
+      }
+    }
+    h2 {
+      font-size: 25px;
+      letter-spacing: -0.8px;
+    }
+  }
+  .blog-details-image {
+    margin: {
+      top: 20px;
+      bottom: 20px;
+    }
+  }
+  .blog-details-content {
+    padding-right: 0;
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 12px;
+
+      &:not(:first-child) {
+        margin-top: 25px;
+      }
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .blockquote,
+    blockquote {
+      padding: 25px 20px;
+      margin: {
+        top: 25px;
+        bottom: 25px;
+      }
+      p {
+        letter-spacing: -0.5px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+        line-height: 57px;
+        position: relative;
+        margin-bottom: 15px;
+        display: inline-block;
+      }
+    }
+    .features-list {
+      margin: {
+        top: 25px;
+        bottom: 25px;
+      }
+      li {
+        padding-left: 15px;
+      }
+    }
+    .images {
+      margin: {
+        top: 25px;
+        bottom: 25px;
+      }
+    }
+  }
+  .blog-details-info {
+    padding: {
+      top: 20px;
+      bottom: 20px;
+    }
+    margin: {
+      top: 25px;
+      right: 0;
+    }
+    .tags {
+      span {
+        font-size: 16px;
+        letter-spacing: -0.5px;
+      }
+      a {
+        margin-bottom: 10px;
+        padding: 5px 15px;
+      }
+    }
+    .socials-link {
+      text-align: start;
+      margin-top: 5px;
+
+      span {
+        font-size: 16px;
+        margin-right: 5px;
+        letter-spacing: -0.5px;
+      }
+      a {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .blog-details-prev-next {
+    margin-top: 25px;
+    padding-right: 0;
+
+    .sub-title {
+      font-size: 13px;
+      padding-left: 22px;
+      margin-bottom: 12px;
+      letter-spacing: 1.1px;
+    }
+    .box {
+      padding-left: 95px;
+
+      img {
+        width: 80px;
+      }
+      span {
+        margin-bottom: 6px;
+      }
+      h3 {
+        letter-spacing: -0.5px;
+        max-width: 100%;
+        font-size: 15px;
+      }
+    }
+    .col-lg-6 {
+      &:nth-child(2) {
+        .sub-title {
+          margin-top: 25px;
+          padding: {
+            left: 0;
+            right: 22px;
+          }
+        }
+        .box {
+          padding: {
+            left: 0;
+            right: 95px;
+          }
+        }
+      }
+    }
+  }
+  .blog-details-comments-area {
+    margin-top: 35px;
+    padding-right: 0;
+
+    h2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+      letter-spacing: -0.8px;
+    }
+  }
+  .blog-details-post-comment {
+    margin-top: 35px;
+    padding-right: 0;
+
+    h2 {
+      font-size: 25px;
+      margin-bottom: 15px;
+      letter-spacing: -0.8px;
+    }
+  }
+
+  // Testimonials Area CSS
+  .testimonials-area {
+    &::before,
+    &::after {
+      display: none;
+    }
+    .section-title {
+      padding-left: 0;
+
+      h2 {
+        max-width: 100%;
+      }
+    }
+  }
+  .single-testimonial-box {
+    padding: 20px;
+
+    .client-info {
+      margin-bottom: 15px;
+
+      img {
+        width: 60px;
+        margin-right: 15px;
+      }
+      h3 {
+        font-size: 17px;
+        margin-bottom: 8px;
+        letter-spacing: -0.5px;
+      }
+    }
+    &::before {
+      top: 30px;
+      right: 20px;
+      font-size: 35px;
+    }
+  }
+  .testimonialsSwiper {
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      margin: {
+        top: 25px;
+        left: 1px;
+        right: 1px;
+      }
+    }
+    .swiper-button-prev {
+      margin-left: 0 !important;
+    }
+    .swiper-button-next {
+      margin-right: 0 !important;
+    }
+  }
+
+  // Popular Articles Area CSS
+  .single-popular-article-post {
+    padding: {
+      left: 0;
+      right: 0;
+      top: 25px;
+      bottom: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      line-height: 1.4;
+      margin-bottom: 15px;
+      letter-spacing: -0.5px;
+    }
+    .meta {
+      margin-bottom: 15px;
+
+      li {
+        margin-right: 25px;
+
+        .author {
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+          }
+          a {
+            margin-left: 5px;
+          }
+        }
+        &::before {
+          top: 8px;
+          right: -15px;
+        }
+      }
+    }
+    .default-btn {
+      margin-top: 5px;
+    }
+  }
+  .popular-articles-inner {
+    padding: {
+      bottom: 20px;
+      left: calc(var(--bs-gutter-x) * 0.5);
+      right: calc(var(--bs-gutter-x) * 0.5);
+    }
+    border: {
+      top: none;
+      bottom: none;
+    }
+    &::before {
+      width: 100%;
+      margin: {
+        top: 0;
+        bottom: 0;
+      }
+    }
+    .popularArticlesSwiper {
+      .swiper-slide {
+        &.swiper-slide-active {
+          .single-popular-article-post {
+            padding: {
+              left: 0;
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+    .pa-swiper-button-next,
+    .pa-swiper-button-prev {
+      top: 0;
+      right: 0;
+      font-size: 22px;
+      position: relative;
+    }
+    .pa-swiper-button-prev {
+      right: 0;
+      margin-right: 5px;
+    }
+  }
+
+  // Top Stories Area CSS
+  .single-top-story-post {
+    .image {
+      .category {
+        padding: 5px 12px;
+      }
+    }
+    .content {
+      margin-top: 20px;
+
+      h3 {
+        font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 12px;
+        letter-spacing: -0.5px;
+      }
+      .meta {
+        li {
+          margin-right: 25px;
+
+          .author {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+          &::before {
+            top: 8px;
+            right: -16px;
+          }
+        }
+      }
+    }
+  }
+  .topStoriesSwiper {
+    margin-bottom: -10px;
+
+    .ts-swiper-button-next,
+    .ts-swiper-button-prev {
+      transform: translateY(0);
+      position: relative;
+      margin-top: 20px;
+      font-size: 22px;
+      left: 0;
+      top: 0;
+    }
+    .ts-swiper-button-next {
+      left: 0;
+      right: 0;
+      margin-left: 5px;
+    }
+  }
+
+  // Featured Posts Area CSS
+  .featured-posts-inner {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+
+    h2 {
+      font-size: 25px;
+      letter-spacing: -1px;
+    }
+    .title {
+      letter-spacing: -0.5px;
+      padding-left: 28px;
+      font-size: 18px;
+    }
+  }
+  .single-featured-post {
+    padding-bottom: 25px;
+    margin: {
+      bottom: 25px;
+      right: 0;
+    }
+    .image {
+      margin-right: 0;
+    }
+    .content {
+      margin: {
+        left: 0;
+        top: 15px;
+      }
+      h3 {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        letter-spacing: -0.5px;
+      }
+      .meta {
+        margin-bottom: 15px;
+        display: block !important;
+
+        li {
+          margin: {
+            right: 0;
+            bottom: 10px;
+          }
+          .author {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+          &::before {
+            display: none;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .featured-trending-posts {
+    padding: 25px 20px;
+
+    .box {
+      margin-bottom: 12px;
+      padding: {
+        left: 0;
+        bottom: 17px;
+      }
+      h3 {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+        letter-spacing: -0.5px;
+      }
+      .meta {
+        li {
+          margin-right: 30px;
+
+          .author {
+            img {
+              width: 24px;
+              height: 24px;
+              margin-right: 10px;
+              border-radius: 50%;
+              border: 1px solid var(--whiteMainColor);
+            }
+            a {
+              color: var(--whiteMainColor);
+
+              &:hover {
+                color: var(--primaryColor);
+              }
+            }
+          }
+          &::before {
+            top: 10px;
+            width: 5px;
+            height: 5px;
+            content: "";
+            right: -18px;
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.6);
+          }
+          &:last-child {
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+      &:before {
+        top: 0;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        position: relative;
+        margin-bottom: 11px;
+        display: inline-block;
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .featured-ads-box {
+    padding: 25px 20px;
+    margin-top: 25px;
+
+    h3 {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+      letter-spacing: -0.2px;
+    }
+    img {
+      margin: {
+        bottom: -25px;
+        right: -15px;
+        top: -15px;
+      }
+    }
+  }
+  .trending-title {
+    letter-spacing: -0.5px;
+    padding-left: 28px;
+    font-size: 18px;
+    margin: {
+      bottom: 20px;
+      top: 25px;
+    }
+  }
+
+  // Recent Posts Area CSS
+  .single-recent-post {
+    .content {
+      padding: 10px;
+
+      .meta {
+        padding: 6px 8px;
+
+        ul {
+          li {
+            margin-right: 15px;
+
+            .author {
+              img {
+                width: 18px;
+                height: 18px;
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+      h3 {
+        font-size: 18px;
+        letter-spacing: -0.2px;
+
+        a {
+          line-height: 1.8;
+          padding: 3px 5px;
+        }
+      }
+    }
+    .category {
+      padding: 5px 12px;
+    }
+  }
+  .recent-posts-list {
+    .box {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+
+      .content {
+        margin: {
+          left: 0;
+          top: 13px;
+        }
+        h3 {
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          margin: {
+            bottom: 12px;
+            top: 0;
+          }
+        }
+        .meta {
+          li {
+            margin-right: 25px;
+
+            .author {
+              img {
+                width: 22px;
+                height: 22px;
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+            &::before {
+              top: 8px;
+              right: -16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Most Popular Area CSS
+  .most-popular-inner {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+
+    h2 {
+      font-size: 25px;
+      letter-spacing: -1px;
+    }
+    .title {
+      letter-spacing: -0.5px;
+      padding-left: 28px;
+      font-size: 18px;
+    }
+  }
+  .top-news-posts {
+    padding: 25px 20px;
+
+    .box {
+      margin-bottom: 12px;
+      padding: {
+        left: 0;
+        bottom: 17px;
+      }
+      h3 {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+        letter-spacing: -0.5px;
+      }
+      .meta {
+        li {
+          margin-right: 30px;
+
+          .author {
+            img {
+              width: 24px;
+              height: 24px;
+              margin-right: 10px;
+              border-radius: 50%;
+              border: 1px solid var(--whiteMainColor);
+            }
+            a {
+              color: var(--whiteMainColor);
+
+              &:hover {
+                color: var(--primaryColor);
+              }
+            }
+          }
+          &::before {
+            top: 10px;
+            width: 5px;
+            height: 5px;
+            content: "";
+            right: -18px;
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.6);
+          }
+          &:last-child {
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+      &:before {
+        top: 0;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        position: relative;
+        margin-bottom: 11px;
+        display: inline-block;
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .popular-tags-box {
+    margin-top: 25px;
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 6px;
+      letter-spacing: -0.5px;
+    }
+    .tags {
+      a {
+        padding: 5px 13px;
+      }
+    }
+  }
+  .ai-saas-news-box {
+    margin-top: 25px;
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      letter-spacing: -0.5px;
+    }
+    .box {
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+
+      .content {
+        margin: {
+          left: 0;
+          top: 12px;
+        }
+        h3 {
+          font-size: 18px;
+          letter-spacing: -0.5px;
+          margin: {
+            bottom: 12px;
+            top: 0;
+          }
+        }
+        .meta {
+          li {
+            margin-right: 25px;
+
+            .author {
+              img {
+                width: 22px;
+                height: 22px;
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+            &::before {
+              top: 8.5px;
+              right: -16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .most-popular-tabs {
+    .nav {
+      &.nav-tabs {
+        text-align: start;
+        margin: {
+          top: 5px;
+          bottom: 20px;
+        }
+        .nav-item {
+          margin: {
+            left: 5px;
+            right: 5px;
+          }
+          .nav-link {
+            padding: 0;
+            font-size: 15px;
+            letter-spacing: -0.5px;
+
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .single-most-popular-post {
+    margin-bottom: 25px;
+
+    .image {
+      margin-right: 0;
+
+      .category {
+        padding: 5px 13px;
+      }
+    }
+    .content {
+      padding-left: 0;
+      margin-top: 12px;
+
+      h3 {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 12px;
+        letter-spacing: -0.5px;
+      }
+      .meta {
+        margin-bottom: 12px;
+        display: block !important;
+
+        li {
+          margin: {
+            right: 0;
+            bottom: 10px;
+          }
+          .author {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+          &::before {
+            display: none;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .atar-ads {
+    margin-bottom: 25px;
+  }
+  .load-more-btn {
+    margin-top: 20px;
+  }
+  .search-box {
+    margin: {
+      bottom: 25px;
+      top: 25px;
+    }
+    form {
+      button {
+        right: 15px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  // Page Banner Area CSS
+  .page-banner-area {
+    padding: {
+      top: 60px;
+      bottom: 60px;
+    }
+  }
+  .page-banner-content {
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+    ul {
+      li {
+        font-size: 14px;
+        letter-spacing: -0.1px;
+        margin: {
+          left: 11px;
+          right: 11px;
+        }
+        &::before {
+          right: -19px;
+        }
+      }
+    }
+  }
+
+  // Not Found Area CSS
+  .not-found-area {
+    img {
+      margin-bottom: 25px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+    p {
+      max-width: 100%;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    .default-btn {
+      margin-top: 5px;
+    }
+  }
+
+  // Privacy Policy Area CSS
+  .privacy-policy-content {
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+
+      &:not(:first-child) {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  // Terms & Conditions Area CSS
+  .terms-conditions-content {
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+
+      &:not(:first-child) {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  // Pagination Area CSS
+  .pagination-area {
+    margin-top: 0;
+
+    .pagination {
+      .page-item {
+        .page-link {
+          width: 35px;
+          height: 35px;
+          font-size: 15px;
+          line-height: 35px;
+
+          i {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  // Profile Authentication Area CSS
+  .profile-authentication-tabs {
+    max-width: 100%;
+
+    .nav {
+      &.nav-tabs {
+        margin-bottom: 20px;
+
+        .nav-item {
+          margin: {
+            left: 5px;
+            right: 5px;
+          }
+          .nav-link {
+            font-size: 18px;
+            letter-spacing: -0.5px;
+          }
+        }
+      }
+    }
+    form {
+      .form-group {
+        margin-bottom: 15px;
+      }
+      .form-check {
+        padding-left: 32px;
+        margin: {
+          top: 20px;
+          bottom: 20px;
+        }
+      }
+      p {
+        margin-top: 15px;
+        font-size: 13px;
+      }
+    }
+  }
+
+  // Coming Soon Area CSS
+  .coming-soon-content {
+    .logo {
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 14px;
+    }
+    #countdown {
+      max-width: 100%;
+      margin: {
+        bottom: 20px;
+        top: 20px;
+      }
+      div {
+        font-size: 14px;
+        margin: {
+          left: 10px;
+          right: 10px;
+        }
+        span {
+          font-size: 22px;
+        }
+        &::before {
+          right: -20px;
+          font-size: 20px;
+          margin-top: 1px;
+        }
+        &:nth-child(1) {
+          margin-bottom: 10px;
+
+          span {
+            font-size: 50px;
+          }
+        }
+        &:nth-child(2) {
+          margin-left: 15px;
+        }
+      }
+      &::after,
+      &::before {
+        display: none;
+      }
+    }
+    form {
+      max-width: 100%;
+      margin-bottom: 20px;
+
+      .input-newsletter {
+        height: 48px;
+        font-size: 13px;
+        padding: {
+          left: 14px;
+          right: 14px;
+        }
+      }
+      .button {
+        width: 45px;
+
+        i {
+          margin-top: -2px;
+        }
+      }
+    }
+    .socials-link {
+      li {
+        a {
+          width: 35px;
+          height: 35px;
+          font-size: 16px;
+          line-height: 36px;
+        }
+      }
+    }
+    .more-info {
+      margin-top: 15px;
+    }
+  }
+
+  // Products Area CSS
+  .products-area {
+    .load-more-btn {
+      margin-top: 0;
+    }
+  }
+  .atar-grid-sorting {
+    text-align: center;
+
+    .ordering {
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+  .single-product-box {
+    margin-bottom: 25px;
+
+    .image {
+      .discount {
+        padding: 5px 15px;
+      }
+      .fav {
+        top: 10px;
+        opacity: 1;
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+        line-height: 43px;
+        visibility: visible;
+      }
+      &::before {
+        display: none;
+      }
+      .cart-btn {
+        visibility: visible;
+        bottom: 15px;
+        opacity: 1;
+
+        .default-btn {
+          padding-right: 47px;
+
+          i {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .content {
+      margin-top: 17px;
+
+      h3 {
+        letter-spacing: -0.5px;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+      .price {
+        font-size: 15px;
+      }
+    }
+  }
+  .products-sidebar {
+    margin-top: 25px;
+
+    .search-box {
+      margin: {
+        bottom: 25px;
+        top: 0;
+      }
+    }
+    .categories-box {
+      margin-bottom: 25px;
+
+      h3 {
+        letter-spacing: -0.5px;
+        margin-bottom: 18px;
+        font-size: 18px;
+      }
+    }
+    .colors-box {
+      margin-bottom: 25px;
+
+      h3 {
+        letter-spacing: -0.5px;
+        margin-bottom: 4px;
+        font-size: 18px;
+      }
+      .colors {
+        .form-check {
+          margin-right: 10px;
+
+          .form-check-input {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+    .price-range-slider {
+      h3 {
+        letter-spacing: -0.5px;
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+    }
+    .featured-ads-box {
+      margin-top: 25px;
+      padding: 15px;
+
+      h3 {
+        letter-spacing: -0.5px;
+        font-size: 18px;
+      }
+      img {
+        margin: {
+          bottom: -15px;
+          right: -5px;
+          top: -35px;
+        }
+      }
+    }
+  }
+
+  // Product Details Area CSS
+  .product-details-image {
+    margin-right: 0;
+
+    .productDetailsImageSlider {
+      margin-top: 20px;
+    }
+    .fav {
+      top: 10px;
+      width: 38px;
+      right: 10px;
+      height: 38px;
+      font-size: 20px;
+      line-height: 43px;
+    }
+    .discount {
+      top: 10px;
+      padding: 5px 15px;
+    }
+  }
+  .product-details-content {
+    margin-top: 30px;
+
+    .rating {
+      margin-bottom: 8px;
+    }
+    h3 {
+      font-size: 25px;
+      margin-bottom: 10px;
+      letter-spacing: -1px;
+    }
+    .price {
+      margin-bottom: 15px;
+      font-size: 17px;
+
+      span {
+        &:nth-child(2) {
+          font-size: 15px;
+          margin-left: -2px;
+        }
+      }
+    }
+    p {
+      max-width: 100%;
+    }
+    .features-list {
+      margin: {
+        top: 15px;
+        bottom: 15px;
+      }
+      li {
+        font-size: 14px;
+      }
+    }
+    .input-counter {
+      margin-top: 20px;
+
+      .number-counter {
+        height: 47px;
+        line-height: 47px;
+        margin-right: 10px;
+        padding: {
+          left: 38px;
+          right: 38px;
+        }
+        button {
+          left: 15px;
+
+          &:last-child {
+            left: auto;
+            right: 15px;
+          }
+        }
+      }
+    }
+  }
+  .product-details-tabs {
+    max-width: 100%;
+    margin-top: 30px;
+
+    .nav {
+      &.nav-tabs {
+        padding: 5px;
+        max-width: 273px;
+        margin-bottom: 25px;
+
+        .nav-item {
+          margin: {
+            left: 5px;
+            right: 5px;
+          }
+          .nav-link {
+            font-size: 15px;
+            padding: 9px 20px;
+          }
+        }
+      }
+    }
+    .tab-content {
+      p {
+        margin-bottom: 15px;
+      }
+    }
+    .reviews-list {
+      .review-item {
+        padding: {
+          left: 0;
+          top: 20px;
+          bottom: 20px;
+        }
+        img {
+          top: 0;
+          position: relative;
+          margin-bottom: 17px;
+        }
+        h3 {
+          font-size: 16px;
+          margin-bottom: 10px;
+          letter-spacing: -0.6px;
+        }
+        .date {
+          margin-bottom: 10px;
+        }
+        .rating {
+          top: 41px;
+        }
+      }
+    }
+    .review-form {
+      margin-top: 30px;
+
+      h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        letter-spacing: -1px;
+      }
+      .ratings {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // Cart Area CSS
+  .cart-table {
+    .table {
+      thead {
+        tr {
+          th {
+            font-size: 15px;
+            padding: 0 0 10px;
+            letter-spacing: -0.5px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 15px 25px 15px 0;
+            white-space: nowrap;
+
+            .product {
+              display: block !important;
+              letter-spacing: -0.5px;
+              font-size: 17px;
+
+              img {
+                width: 60px;
+                display: block;
+                margin: {
+                  right: 0;
+                  bottom: 13px;
+                }
+              }
+            }
+            &.price {
+              font-size: 17px;
+            }
+            .number-counter {
+              height: 52px;
+              line-height: 52px;
+            }
+            .remove {
+              font-size: 22px;
+            }
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .coupon-cart {
+    margin: {
+      top: 25px;
+      bottom: 0;
+    }
+    form {
+      .default-btn {
+        position: relative;
+        margin: {
+          right: 0;
+          bottom: 0;
+          top: 12px;
+        }
+      }
+    }
+    .update-cart-btn {
+      font-size: 14px;
+      padding: 14px 20px;
+      margin-top: 25px;
+    }
+  }
+  .cart-totals-box {
+    margin-top: 25px;
+    max-width: 100%;
+
+    .box {
+      h3 {
+        letter-spacing: -0.5px;
+        font-size: 18px;
+        padding: 15px;
+      }
+      div {
+        padding: 15px;
+
+        span {
+          font-size: 14px;
+          letter-spacing: -0.5px;
+        }
+      }
+    }
+  }
+
+  // Wishlist Area CSS
+  .wishlist-table {
+    .table {
+      thead {
+        tr {
+          th {
+            font-size: 15px;
+            padding: 0 0 10px;
+            letter-spacing: -0.5px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 15px 25px 15px 0;
+            white-space: nowrap;
+
+            .product {
+              display: block !important;
+              letter-spacing: -0.5px;
+              font-size: 17px;
+
+              img {
+                width: 60px;
+                display: block;
+                margin: {
+                  right: 0;
+                  bottom: 13px;
+                }
+              }
+            }
+            &.price {
+              font-size: 17px;
+            }
+            &.instock {
+              font-size: 14px;
+              letter-spacing: -0.5px;
+            }
+            &.out-of-stock {
+              font-size: 14px;
+              letter-spacing: -0.5px;
+            }
+            .remove {
+              font-size: 22px;
+            }
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .continue-shopping-btn {
+    font-size: 14px;
+    margin-top: 20px;
+    padding-right: 23px;
+  }
+
+  // Checkout Area CSS
+  .billing-details-box {
+    h3 {
+      letter-spacing: -0.5px;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+  }
+  .additional-info-box {
+    margin-top: 30px;
+
+    h3 {
+      letter-spacing: -0.5px;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+  }
+  .your-orders-box {
+    padding-left: 0;
+    margin-top: 30px;
+
+    h3 {
+      letter-spacing: -0.5px;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    ul {
+      margin-bottom: 15px;
+
+      li {
+        padding: {
+          top: 15px;
+          bottom: 15px;
+        }
+        img {
+          width: 50px;
+          margin-right: 15px;
+        }
+        div {
+          h4 {
+            letter-spacing: -0.6px;
+            margin-bottom: 7px;
+            font-size: 16px;
+          }
+          span {
+            font-size: 14px;
+            letter-spacing: -0.5px;
+          }
+        }
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+    .sub-total {
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+  .payment-method-box {
+    margin: {
+      top: 30px;
+      left: 0;
+    }
+    h3 {
+      letter-spacing: -0.5px;
+      font-size: 18px;
+      padding: 15px;
+    }
+    ul {
+      li {
+        padding: {
+          top: 15px;
+          left: 15px;
+          right: 15px;
+          bottom: 15px;
+        }
+        [type="radio"] {
+          &:checked,
+          &:not(:checked) {
+            + label {
+              font-size: 15px;
+              padding-left: 40px;
+
+              &::before {
+                width: 28px;
+                height: 28px;
+              }
+              &::after {
+                top: 6px;
+                left: 7px;
+              }
+            }
+          }
+        }
+        div {
+          margin: {
+            top: 5px;
+            left: 40px;
+          }
+          img {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .bottom {
+      padding: 15px;
+
+      .default-btn {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Contact Area CSS
+  .contact-image {
+    margin-bottom: 25px;
+    padding: {
+      right: 0;
+      left: 0;
+      top: 0;
+    }
+    .contact-info {
+      top: 0;
+      padding: 20px;
+      max-width: 100%;
+      margin-top: 25px;
+      position: relative;
+
+      .box {
+        margin-bottom: 20px;
+
+        h3 {
+          font-size: 18px;
+          padding-left: 19px;
+          margin-bottom: 10px;
+          letter-spacing: -0.5px;
+
+          &::before {
+            top: 7px;
+            width: 7px;
+            height: 7px;
+          }
+        }
+      }
+      .socials-link {
+        margin-top: 0;
+
+        a {
+          font-size: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  // Instagram Area CSS
+  .instagram-area {
+    .col {
+      flex: 0 0 auto;
+      width: 33.333333%;
+    }
+    .row {
+      margin-bottom: -25px;
+    }
+  }
+  .instagram-post {
+    margin-bottom: 25px;
+
+    i {
+      font-size: 20px;
+    }
+  }
+
+  // Footer Area CSS
+  .footer-area {
+    .footer-items {
+      margin-left: 0;
+
+      .d-flex {
+        flex-wrap: wrap;
+      }
+      .single-footer-widget {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+    }
+  }
+  .single-footer-widget {
+    .logo {
+      margin-bottom: 15px;
+    }
+    p {
+      max-width: 100%;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 17px;
+      letter-spacing: -0.7px;
+    }
+    .custom-links {
+      li {
+        margin-bottom: 12px;
+
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  // Copyright Area CSS
+  .copyright-area {
+    padding: {
+      top: 20px;
+      bottom: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  // Back to Top CSS
+  #backtotop {
+    right: 15px;
+    width: 40px;
+    bottom: 15px;
+    height: 40px;
+    font-size: 21px;
+    line-height: 48px;
+  }
+
+  /* Start "AI Generator Demo Responsive" */
+
+  .all-shapes {
+    display: none;
+  }
+  .container {
+    &.demo-four-container {
+      max-width: 540px;
+    }
+  }
+  .mt-50 {
+    margin-top: 30px;
+  }
+  .section-bg-area {
+    &::before {
+      top: 0;
+      left: 0;
+      right: 0;
+      border-radius: 0;
+    }
+  }
+  .section-warp {
+    margin-bottom: 30px;
+    display: block;
+    .content {
+      .title {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+      h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .four-section-title {
+    margin-bottom: 25px;
+    .title {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+
+  // Hero Area CSS
+  .demo-four-hero-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .demo-four-content {
+    .title {
+      font-size: 12px;
+      margin-bottom: -4px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      letter-spacing: -1px;
+      span {
+        margin-left: 0;
+      }
+    }
+    .search-input {
+      .form-control {
+        font-size: 12px;
+      }
+      .input-button {
+        top: 3px;
+        right: 3px;
+        bottom: 0;
+        width: 45px;
+        height: 44px;
+      }
+    }
+    .tabs {
+      .nav-tabs {
+        .nav-item {
+          .nav-link {
+            padding: 14px 28px;
+          }
+        }
+      }
+    }
+    .banner-small-card {
+      margin-top: 50px;
+      display: inline-block;
+      .banner-card {
+        margin-bottom: 30px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  // Generate Image Area CSS
+  .generate-image {
+    padding-right: 0;
+    margin-bottom: 25px;
+    &.style2 {
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+  }
+  .generate-image-content {
+    padding-left: 0;
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    ul {
+      li {
+        padding-left: 27px;
+        margin-bottom: 14px;
+        i {
+          top: -3px;
+          font-size: 16px;
+        }
+      }
+    }
+    &.style2 {
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 25px;
+    }
+  }
+
+  // Chatbot Area CSS
+  .inner-chatbot-widget {
+    padding: 25px 20px;
+    .all-logos {
+      display: inline-block;
+      .chatbot-shape1 {
+        display: none;
+      }
+      .main-logo {
+        position: relative;
+        width: 81.455px;
+        height: 81.401px;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        transform: unset;
+        top: 0;
+      }
+      .logo1 {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+      .logo2 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .logo3 {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+      .logo4 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .logo5 {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+      .logo6 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .logo7 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .logo8 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .logo9 {
+        position: relative;
+        top: 0;
+        right: 0;
+      }
+      .logo10 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+    }
+    .chatbot {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .chatbot-list {
+      margin-top: 25px;
+      margin-right: 0;
+      display: block;
+      li {
+        padding-left: 26px;
+        font-size: 13px;
+        margin-bottom: 12px;
+        flex-shrink: 0;
+        max-width: 100%;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        i {
+          top: 0;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // Works Area CSS
+  .works-card {
+    .image {
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+  }
+
+  // Pricing Area CSS
+  .four-pricing-card {
+    padding: 30px 20px;
+    margin-top: 15px;
+  }
+  .four-pricing-card {
+    .new {
+      font-size: 12px;
+      width: 80px;
+      height: 22px;
+      line-height: 22px;
+    }
+    h5 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 35px;
+      letter-spacing: -1px;
+      span {
+        left: -17px;
+      }
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    ul {
+      margin-top: 20px;
+      li {
+        margin-bottom: 16px;
+        padding-left: 25px;
+        i {
+          top: -2px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // Testimonial Area CSS
+  .four-testimonial-card {
+    padding: 25px 20px;
+    .star {
+      margin-bottom: 12px;
+      i {
+        font-size: 14px;
+      }
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .details {
+      .image {
+        width: 40px;
+        height: 40px;
+      }
+      .content {
+        h5 {
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+  .inner-download-area {
+    padding: 25px 20px 0 20px;
+    .download-image {
+      position: relative;
+    }
+  }
+  .download-content {
+    margin-bottom: 10px;
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .download-btns {
+      display: block;
+      align-items: center;
+      .store-button {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  // Faq Area CSS
+  .demo-four-faq-content {
+    padding-right: 0;
+    margin-bottom: 25px;
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 14px;
+      letter-spacing: -1px;
+    }
+    p {
+      margin-bottom: 18px;
+    }
+    .default-btn {
+      margin-top: 0;
+    }
+  }
+
+  // Follow Us Area CSS
+  .inner-follow-us {
+    padding: 25px 20px 0 20px;
+    border-radius: 42px;
+    background-color: #342064;
+    .follow-image1 {
+      position: relative;
+      border-radius: 0;
+    }
+    .follow-content {
+      margin-bottom: 20px;
+      .title {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+      h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  /* End "AI Generator Demo Responsive" */
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  // Default CSS
+  .container-fluid {
+    max-width: 540px;
+  }
+
+  // Banner Area CSS
+  .banner-search {
+    form {
+      button {
+        font-size: 13px;
+        padding: 5px 20px;
+        position: absolute;
+        margin: {
+          top: 5px;
+          right: 5px;
+          bottom: 5px;
+        }
+      }
+    }
+  }
+
+  // Banner Posts Area CSS
+  .banner-posts-area {
+    .container-fluid {
+      padding: {
+        left: calc(var(--bs-gutter-x) * 0.5);
+        right: calc(var(--bs-gutter-x) * 0.5);
+      }
+    }
+  }
+
+  // Portfolio Area CSS
+  .portfolio-items {
+    justify-content: center;
+
+    .col {
+      width: 50%;
+    }
+  }
+
+  // Instagram Area CSS
+  .instagram-area {
+    .col {
+      width: 25%;
+    }
+  }
+
+  // Why Choose Us Area CSS
+  .single-why-choose-box {
+    &:hover {
+      .image {
+        img {
+          transform: translateY(-28px);
+        }
+      }
+    }
+  }
+  .col-lg-3 {
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(7),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        .image {
+          img {
+            transform: translateY(-28px);
+          }
+        }
+        &:hover {
+          .image {
+            img {
+              transform: translateY(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Popular Articles Area CSS
+  .popular-articles-area {
+    .container-fluid {
+      &:nth-child(2) {
+        padding: {
+          left: calc(var(--bs-gutter-x) * 0.5);
+          right: calc(var(--bs-gutter-x) * 0.5);
+        }
+      }
+    }
+  }
+
+  // Most Popular Area CSS
+  .ai-saas-news-box {
+    .box {
+      .content {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Recent Posts Area CSS
+  .recent-posts-list {
+    .box {
+      .content {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Featured Posts Area CSS
+  .single-featured-post {
+    .content {
+      margin-top: 0;
+    }
+  }
+
+  .demo-four-content {
+    .banner-small-card {
+      .banner-card {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  // Default CSS
+  .ptb-100 {
+    padding: {
+      top: 80px;
+      bottom: 80px;
+    }
+  }
+  .pt-100 {
+    padding-top: 80px;
+  }
+  .pb-100 {
+    padding-bottom: 80px;
+  }
+  .ptb-120 {
+    padding: {
+      top: 80px;
+      bottom: 80px;
+    }
+  }
+  .pt-120 {
+    padding-top: 80px;
+  }
+  .pb-120 {
+    padding-bottom: 80px;
+  }
+  .ptb-75 {
+    padding: {
+      top: 55px;
+      bottom: 55px;
+    }
+  }
+  .pt-75 {
+    padding-top: 55px;
+  }
+  .pb-75 {
+    padding-bottom: 55px;
+  }
+  .ptb-50 {
+    padding: {
+      top: 55px;
+      bottom: 55px;
+    }
+  }
+  .pt-50 {
+    padding-top: 55px;
+  }
+  .pb-50 {
+    padding-bottom: 55px;
+  }
+  .ptb-95 {
+    padding: {
+      top: 55px;
+      bottom: 55px;
+    }
+  }
+  .pt-95 {
+    padding-top: 55px;
+  }
+  .pb-95 {
+    padding-bottom: 55px;
+  }
+  .ptb-80 {
+    padding: {
+      top: 60px;
+      bottom: 60px;
+    }
+  }
+  .pt-80 {
+    padding-top: 60px;
+  }
+  .pb-80 {
+    padding-bottom: 60px;
+  }
+  .ptb-55 {
+    padding: {
+      top: 35px;
+      bottom: 35px;
+    }
+  }
+  .pt-55 {
+    padding-top: 35px;
+  }
+  .pb-55 {
+    padding-bottom: 35px;
+  }
+  .container-fluid {
+    max-width: 720px;
+    padding: {
+      left: calc(var(--bs-gutter-x) * 0.5);
+      right: calc(var(--bs-gutter-x) * 0.5);
+    }
+  }
+
+  // Form Control
+  .form-control {
+    font-size: 15px;
+    height: 55px;
+    padding: {
+      left: 18px;
+      right: 18px;
+    }
+  }
+  textarea.form-control {
+    padding-top: 18px;
+  }
+
+  // Form Select
+  .form-select {
+    font-size: 15px;
+    height: 55px;
+    padding: {
+      left: 18px;
+      right: 18px;
+    }
+  }
+
+  // Default Btn
+  .default-btn {
+    padding: 14px 47px 14px 20px;
+    font-size: 15px;
+  }
+
+  // Section Title
+  .section-title {
+    margin-bottom: 35px;
+
+    .sub-title {
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 32px;
+      max-width: 635px;
+      letter-spacing: -1px;
+
+      &.mw-800 {
+        max-width: 635px;
+      }
+      &.mw-820 {
+        max-width: 635px;
+      }
+    }
+  }
+
+  // Navbar Area CSS
+  .navbar {
+    padding: {
+      top: 20px;
+      bottom: 20px;
+    }
+    &.sticky {
+      padding: {
+        top: 15px;
+        bottom: 15px;
+      }
+    }
+  }
+
+  // Responsive Navbar
+  .responsive-navbar {
+    .offcanvas-header {
+      padding: 25px;
+    }
+    .offcanvas-body {
+      padding: 25px;
+
+      .others-option {
+        margin-top: 45px;
+      }
+    }
+  }
+
+  // Search Modal
+  .searchModal {
+    .modal-dialog {
+      padding: {
+        top: 20px;
+        bottom: 20px;
+      }
+      .modal-content {
+        max-width: 540px;
+
+        form {
+          .input-search {
+            height: 55px;
+            padding: {
+              left: 18px;
+              right: 18px;
+            }
+          }
+          button {
+            width: 50px;
+          }
+        }
+        .btn-close {
+          top: 20px;
+          right: -40px;
+        }
+      }
+    }
+  }
+
+  // Banner Area CSS
+  .banner-area {
+    padding-top: 80px;
+
+    &::before {
+      height: 100px;
+    }
+  }
+  .banner-content {
+    h1 {
+      font-size: 50px;
+      line-height: 1.2;
+      margin-bottom: 14px;
+      letter-spacing: -2px;
+
+      br {
+        display: none;
+      }
+    }
+    p {
+      max-width: 100%;
+    }
+    .default-btn {
+      margin-top: 11px;
+    }
+  }
+  .banner-search {
+    max-width: 100%;
+    margin: {
+      left: 0;
+      top: 25px;
+    }
+    form {
+      .input-search {
+        height: 55px;
+        padding: {
+          left: 20px;
+          right: 20px;
+        }
+      }
+      button {
+        padding: 5px 22px;
+        margin: {
+          top: 5px;
+          right: 5px;
+          bottom: 5px;
+        }
+      }
+    }
+  }
+  .bannerSwiper {
+    margin-top: 80px;
+  }
+  .bannerSwiper2 {
+    margin-top: 20px;
+  }
+
+  // Main Banner Area CSS
+  .main-banner-area {
+    overflow: hidden;
+
+    &::before {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      content: "";
+      opacity: 0.1;
+      position: absolute;
+      background: url(../img/banners/dot-bg.png) no-repeat center center / cover;
+    }
+    &.atar-white {
+      background-color: var(--whiteMainColor);
+
+      &::before {
+        opacity: 1;
+      }
+      .main-banner-content {
+        h1 {
+          color: var(--blackColor);
+        }
+        p {
+          color: var(--paragraphColor2);
+        }
+      }
+    }
+  }
+  .main-banner-image {
+    padding-right: 0;
+    margin-bottom: 25px;
+
+    .box {
+      padding: 15px;
+      left: auto;
+      right: 0;
+    }
+    .typewriter {
+      padding: 15px;
+      left: auto;
+      right: 0;
+    }
+  }
+  .main-banner-content {
+    padding-left: 0;
+    margin-bottom: 0;
+
+    h1 {
+      font-size: 44px;
+      line-height: 1.2;
+      margin-bottom: 15px;
+      letter-spacing: -1.5px;
+    }
+    .default-btn {
+      margin-top: 5px;
+    }
+    div {
+      max-width: 100%;
+      margin: {
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+  .shape3,
+  .shape4,
+  .shape7,
+  .shape6 {
+    display: none;
+  }
+
+  // Banner Posts Area CSS
+  .banner-posts-area {
+    .container-fluid {
+      max-width: 100%;
+    }
+  }
+  .single-banner-post {
+    .content {
+      padding: 15px;
+
+      .meta {
+        padding: 6px 10px;
+
+        ul {
+          li {
+            margin-right: 15px;
+
+            .author {
+              img {
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      h3 {
+        font-size: 19px;
+        letter-spacing: -0.7px;
+
+        a {
+          line-height: 1.9;
+          padding: 4px 8px;
+        }
+      }
+    }
+  }
+
+  // What We Do Area CSS
+  .what-we-do-image {
+    padding-right: 0;
+
+    .typewriter {
+      right: 0;
+      padding: 15px 20px;
+    }
+  }
+  .what-we-do-content {
+    padding-left: 0;
+    margin-top: 25px;
+
+    .sub-title {
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 18px;
+      letter-spacing: -1px;
+    }
+    .default-btn {
+      margin-top: 12px;
+    }
+  }
+  .what-we-do-img {
+    padding-right: 145px;
+
+    img {
+      &:nth-child(2) {
+        right: 0;
+      }
+    }
+    .typewriter {
+      right: 0;
+      padding: 15px 20px;
+    }
+    &::before {
+      margin-right: 0;
+    }
+  }
+
+  // Features Area CSS
+  .single-feature-box {
+    h3 {
+      font-size: 19px;
+      margin-bottom: 12px;
+    }
+  }
+
+  // Services Area CSS
+  .services-tabs {
+    .tabs {
+      .nav {
+        &.nav-tabs {
+          max-width: 100%;
+          padding: 15px 20px;
+          margin-bottom: 35px;
+
+          &.mw-580 {
+            max-width: 100%;
+          }
+        }
+      }
+      .content {
+        margin-right: 0;
+
+        h3 {
+          letter-spacing: -1px;
+          margin-bottom: 25px;
+          font-size: 32px;
+        }
+      }
+      .images {
+        padding: {
+          left: 0;
+          right: 40px;
+          bottom: 80px;
+        }
+        &::before {
+          margin: {
+            right: 0;
+            left: 0;
+            top: 0;
+          }
+        }
+        img {
+          &:nth-child(2) {
+            width: 65px;
+            top: 75px;
+            right: 0;
+          }
+          &:nth-child(3) {
+            right: 0;
+            width: 120px;
+          }
+        }
+      }
+      .description {
+        padding-top: 25px;
+        margin: {
+          left: 0;
+          top: 30px;
+        }
+        p {
+          margin-bottom: 15px;
+        }
+      }
+      .tab-content {
+        .row {
+          .row {
+            align-items: center;
+          }
+        }
+        .shape {
+          display: none;
+        }
+      }
+    }
+  }
+  .single-service-box {
+    .image {
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 20px;
+      letter-spacing: -0.8px;
+    }
+  }
+
+  // Service Details Area CSS
+  .service-details-text {
+    max-width: 100%;
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+
+  // Text Slider Area CSS
+  .text-slider-area {
+    .swiper-wrapper {
+      .swiper-slide {
+        div {
+          letter-spacing: -2px;
+          font-size: 45px;
+          margin: {
+            top: -15px;
+            bottom: -5px;
+          }
+        }
+      }
+    }
+  }
+
+  // Portfolio Area CSS
+  .portfolio-items {
+    justify-content: center;
+
+    .col {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+  .explore-more-btn {
+    margin-top: 25px;
+
+    a {
+      font-size: 15px;
+    }
+  }
+
+  // Subscribe Area CSS
+  .subscribe-inner-box {
+    padding: 80px 35px;
+
+    .content {
+      .sub-title {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      h2 {
+        font-size: 32px;
+        letter-spacing: -1px;
+      }
+    }
+    .newsletter-form {
+      max-width: 100%;
+      margin: {
+        left: 0;
+        top: 25px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+
+        .input-newsletter {
+          height: 55px;
+          padding: {
+            left: 18px;
+            right: 18px;
+          }
+        }
+      }
+      .form-check {
+        padding-left: 30px;
+
+        .form-check-input {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+    &.style-two {
+      padding: {
+        left: 35px;
+        right: 35px;
+      }
+      .newsletter-form {
+        max-width: 100%;
+      }
+      .shape {
+        display: none;
+      }
+    }
+  }
+
+  // Funfacts Area CSS
+  .single-funfact-box {
+    .number {
+      font-size: 50px;
+      letter-spacing: -2px;
+      margin: {
+        top: -20px;
+        bottom: -5px;
+      }
+    }
+    p {
+      max-width: 100%;
+    }
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+  .single-funfact-item {
+    .number {
+      font-size: 50px;
+      letter-spacing: -2px;
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .funfacts-shape1,
+  .funfacts-shape2 {
+    display: none;
+  }
+
+  // Why Choose Us Area CSS
+  .why-choose-left-content {
+    .image {
+      padding-right: 100px;
+
+      img {
+        &:nth-child(2) {
+          right: 0;
+          width: 160px;
+        }
+      }
+      &::before {
+        top: 0;
+        right: 0;
+      }
+    }
+    .content {
+      margin-top: 25px;
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 14px;
+        letter-spacing: -1px;
+      }
+      p {
+        max-width: 100%;
+      }
+      .default-btn {
+        margin-top: 10px;
+      }
+    }
+  }
+  .why-choose-right-content {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 80px;
+    margin-top: 80px;
+
+    .content {
+      padding-left: 0;
+
+      .sub-title {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      h2 {
+        font-size: 32px;
+        margin-bottom: 13px;
+        letter-spacing: -1px;
+      }
+    }
+    .image {
+      margin-top: 25px;
+      padding-left: 100px;
+
+      .box {
+        left: 0;
+        width: 395px;
+        bottom: 70px;
+        padding: 20px;
+
+        span {
+          font-size: 15px;
+          margin-bottom: 15px;
+          padding-bottom: 15px;
+        }
+        p {
+          margin-bottom: 20px;
+          padding-bottom: 15px;
+        }
+        .copy-btn {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .single-why-choose-box {
+    h3 {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  }
+  .col-lg-3 {
+    &:nth-child(2),
+    &:nth-child(4),
+    &:nth-child(6),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        h3 {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  // Brands Area CSS
+  .brands-section-title {
+    margin-bottom: 35px;
+
+    span {
+      font-size: 15px;
+    }
+    &.mb-0 {
+      margin-top: 35px;
+    }
+  }
+
+  // FAQ Area CSS
+  .faq-accordion {
+    .accordion {
+      .accordion-item {
+        margin-bottom: 15px;
+
+        .accordion-button {
+          padding: 15px 30px 15px 15px;
+
+          &::before {
+            right: 15px;
+          }
+        }
+        .accordion-collapse {
+          .accordion-body {
+            padding: 11px 0 15px;
+            margin: {
+              left: 15px;
+              right: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .faq-image {
+    margin-top: 25px;
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+
+  // Automation Area CSS
+  .automation-content {
+    padding-right: 0;
+
+    .sub-title {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+  }
+  .automation-image {
+    margin: {
+      top: 25px;
+      bottom: 25px;
+    }
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+  .automation-text {
+    padding-left: 0;
+    margin-top: 0;
+
+    .shape5 {
+      margin-bottom: 25px;
+    }
+    .link-btn {
+      font-size: 15px;
+    }
+  }
+
+  // Chatbot Area CSS
+  .chatbot-inner-box {
+    padding: 80px 35px;
+
+    .content {
+      .sub-title {
+        font-size: 14px;
+        margin-bottom: 9px;
+      }
+      h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+        letter-spacing: -1px;
+      }
+      .default-btn {
+        margin-top: 10px;
+      }
+    }
+    .image {
+      margin-top: 25px;
+    }
+  }
+
+  // Video Area CSS
+  .video-box {
+    .video-btn {
+      width: 90px;
+      height: 90px;
+      font-size: 25px;
+    }
+  }
+
+  // Blog Area CSS
+  .blog-items {
+    margin: {
+      left: calc(-0.5 * var(--bs-gutter-x));
+      right: calc(-0.5 * var(--bs-gutter-x));
+    }
+    .col-lg-4 {
+      padding: {
+        left: calc(var(--bs-gutter-x) * 0.5);
+        right: calc(var(--bs-gutter-x) * 0.5);
+      }
+    }
+  }
+  .single-blog-post {
+    margin-bottom: 25px;
+
+    .content {
+      margin-top: 20px;
+
+      h3 {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        letter-spacing: -1px;
+      }
+    }
+    &.mb-40 {
+      margin-bottom: 30px;
+    }
+  }
+
+  // Blog Details Area CSS
+  .blog-details-header {
+    padding-right: 0;
+
+    .meta {
+      margin-bottom: 15px;
+
+      li {
+        margin-right: 25px;
+
+        .author {
+          img {
+            margin-right: 8px;
+          }
+          a {
+            margin-left: 5px;
+          }
+        }
+        &::before {
+          top: 8px;
+          left: -14px;
+        }
+      }
+    }
+    h2 {
+      font-size: 32px;
+      letter-spacing: -1px;
+    }
+  }
+  .blog-details-image {
+    margin: {
+      top: 25px;
+      bottom: 25px;
+    }
+  }
+  .blog-details-content {
+    padding-right: 0;
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 12px;
+
+      &:not(:first-child) {
+        margin-top: 25px;
+      }
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .features-list {
+      margin: {
+        top: 25px;
+        bottom: 25px;
+      }
+    }
+    .images {
+      margin: {
+        top: 20px;
+        bottom: 20px;
+      }
+    }
+  }
+  .blog-details-info {
+    padding: {
+      top: 25px;
+      bottom: 25px;
+    }
+    margin: {
+      top: 30px;
+      right: 0;
+    }
+    .tags {
+      span {
+        font-size: 16px;
+      }
+      a {
+        padding: 6px 11px;
+      }
+    }
+    .socials-link {
+      span {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+      a {
+        font-size: 15px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .blog-details-prev-next {
+    margin-top: 30px;
+    padding-right: 0;
+
+    .sub-title {
+      margin-bottom: 15px;
+    }
+  }
+  .blog-details-comments-area {
+    margin-top: 40px;
+    padding-right: 0;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+    }
+  }
+  .blog-details-post-comment {
+    margin-top: 40px;
+    padding-right: 0;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+  }
+
+  // Pricing Area CSS
+  .pricing-area {
+    .section-title {
+      margin-bottom: 35px;
+    }
+  }
+  .single-pricing-box {
+    .pricing-header {
+      h3 {
+        padding: 12px 20px;
+        font-size: 17px;
+      }
+      .price {
+        margin: {
+          top: 17px;
+          bottom: 10px;
+        }
+        div {
+          letter-spacing: -1px;
+          font-size: 45px;
+        }
+      }
+    }
+    .pricing-features {
+      ul {
+        li {
+          padding-left: 28px;
+        }
+      }
+    }
+    &.active {
+      .pricing-header {
+        h3 {
+          padding: {
+            left: 20px;
+            right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  // Testimonials Area CSS
+  .testimonials-area {
+    &::before,
+    &::after {
+      display: none;
+    }
+    .section-title {
+      padding-left: 0;
+
+      h2 {
+        max-width: 100%;
+      }
+    }
+  }
+  .single-testimonial-box {
+    padding: 25px;
+
+    .client-info {
+      margin-bottom: 15px;
+
+      img {
+        width: 65px;
+        margin-right: 15px;
+      }
+      h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        letter-spacing: -0.5px;
+      }
+    }
+    &::before {
+      top: 35px;
+      right: 25px;
+      font-size: 40px;
+    }
+  }
+  .testimonialsSwiper {
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 48px;
+      height: 48px;
+      font-size: 22px;
+      margin: {
+        top: 25px;
+        left: 2px;
+        right: 2px;
+      }
+    }
+    .swiper-button-prev {
+      margin-left: 0 !important;
+    }
+    .swiper-button-next {
+      margin-right: 0 !important;
+    }
+  }
+
+  // Integration Area CSS
+  .integration-box {
+    max-width: 100%;
+    margin: {
+      top: 0;
+      bottom: 25px;
+    }
+    .cube {
+      top: 0;
+      margin-top: 0;
+      position: relative;
+      transform: translateY(0);
+    }
+    .list {
+      margin-top: 15px;
+
+      div {
+        width: 100px;
+        height: 100px;
+        top: 0 !important;
+        position: relative;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        display: inline-block;
+        position: relative !important;
+        margin: {
+          top: 15px;
+          left: 6px;
+          right: 6px;
+        }
+      }
+    }
+    .atar-border {
+      display: none;
+    }
+  }
+  .integration-content {
+    max-width: 100%;
+    padding: 40px 25px 15px;
+
+    .box {
+      padding-left: 33px;
+      margin-bottom: 25px;
+
+      i {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // Team Area CSS
+  .single-team-member {
+    .image {
+      .socials-link {
+        opacity: 1;
+        padding: 12px 20px;
+        visibility: visible;
+      }
+    }
+    h3 {
+      font-size: 19px;
+      letter-spacing: -0.8px;
+    }
+  }
+
+  // Popular Articles Area CSS
+  .popular-articles-area {
+    .container-fluid {
+      &:nth-child(2) {
+        padding: {
+          left: calc(var(--bs-gutter-x) * 0.5);
+          right: calc(var(--bs-gutter-x) * 0.5);
+        }
+      }
+    }
+  }
+  .single-popular-article-post {
+    padding: {
+      top: 30px;
+      left: 25px;
+      right: 25px;
+      bottom: 30px;
+    }
+    h3 {
+      font-size: 22px;
+      letter-spacing: -0.5px;
+    }
+    .meta {
+      margin-bottom: 15px;
+
+      li {
+        .author {
+          img {
+            margin-right: 8px;
+          }
+          a {
+            margin-left: 5px;
+          }
+        }
+        &::before {
+          top: 10px;
+        }
+      }
+    }
+  }
+  .popular-articles-inner {
+    padding: {
+      left: 0;
+      right: 0;
+    }
+    border: {
+      top: none;
+      bottom: none;
+    }
+    &::before {
+      display: none;
+    }
+    .popularArticlesSwiper {
+      .swiper-slide {
+        &.swiper-slide-active {
+          .single-popular-article-post {
+            padding: {
+              left: 25px !important;
+              right: 25px !important;
+            }
+          }
+        }
+      }
+    }
+    .pa-swiper-button-next,
+    .pa-swiper-button-prev {
+      right: 0;
+      top: -61px;
+      font-size: 22px;
+    }
+    .pa-swiper-button-prev {
+      right: 35px;
+    }
+  }
+
+  // Top Stories Area CSS
+  .single-top-story-post {
+    .content {
+      margin-top: 15px;
+
+      h3 {
+        font-size: 19px;
+        letter-spacing: -0.8px;
+      }
+      .meta {
+        li {
+          .author {
+            img {
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+          &::before {
+            top: 9px;
+          }
+        }
+      }
+    }
+  }
+  .topStoriesSwiper {
+    .ts-swiper-button-next,
+    .ts-swiper-button-prev {
+      transform: translateY(0);
+      position: relative;
+      margin-top: 25px;
+      font-size: 24px;
+      left: 0;
+      top: 0;
+    }
+    .ts-swiper-button-next {
+      left: 0;
+      right: 0;
+      margin-left: 5px;
+    }
+  }
+
+  // Featured Posts Area CSS
+  .featured-posts-inner {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+
+    h2 {
+      font-size: 32px;
+      letter-spacing: -1px;
+    }
+    .title {
+      letter-spacing: -0.8px;
+      font-size: 19px;
+    }
+  }
+  .single-featured-post {
+    padding-bottom: 25px;
+    margin: {
+      bottom: 25px;
+      right: 0;
+    }
+    .image {
+      margin-right: 0;
+    }
+    .content {
+      margin-left: 0;
+
+      h3 {
+        font-size: 19px;
+        letter-spacing: -0.8px;
+      }
+      .meta {
+        margin-bottom: 15px;
+
+        li {
+          .author {
+            img {
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .featured-trending-posts {
+    padding: 25px;
+
+    .box {
+      padding: {
+        left: 44px;
+        bottom: 20px;
+      }
+      h3 {
+        font-size: 19px;
+        letter-spacing: -0.8px;
+      }
+      .meta {
+        li {
+          .author {
+            img {
+              margin-right: 8px;
+            }
+          }
+          &::before {
+            top: 9px;
+          }
+        }
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .featured-ads-box {
+    padding: 25px;
+    margin-top: 25px;
+
+    h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      letter-spacing: -1px;
+    }
+  }
+  .trending-title {
+    letter-spacing: -0.8px;
+    font-size: 19px;
+    margin: {
+      top: 25px;
+      bottom: 20px;
+    }
+  }
+
+  // Recent Posts Area CSS
+  .single-recent-post {
+    .content {
+      padding: 10px;
+
+      .meta {
+        padding: 6px 8px;
+
+        ul {
+          li {
+            margin-right: 15px;
+
+            .author {
+              img {
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+      h3 {
+        font-size: 20px;
+        letter-spacing: -0.8px;
+
+        a {
+          line-height: 1.9;
+          padding: 4px 8px;
+        }
+      }
+    }
+  }
+  .recent-posts-list {
+    .box {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+
+      .content {
+        margin-left: 0;
+
+        h3 {
+          font-size: 19px;
+          letter-spacing: -0.8px;
+        }
+        .meta {
+          li {
+            .author {
+              img {
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+            &::before {
+              top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Most Popular Area CSS
+  .most-popular-inner {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+
+    h2 {
+      font-size: 32px;
+      letter-spacing: -1px;
+    }
+    .title {
+      letter-spacing: -0.8px;
+      font-size: 19px;
+    }
+  }
+  .top-news-posts {
+    padding: 25px;
+
+    .box {
+      padding: {
+        left: 44px;
+        bottom: 20px;
+      }
+      h3 {
+        font-size: 19px;
+        letter-spacing: -0.8px;
+      }
+      .meta {
+        li {
+          .author {
+            img {
+              margin-right: 8px;
+            }
+          }
+          &::before {
+            top: 9px;
+          }
+        }
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .popular-tags-box {
+    margin-top: 25px;
+
+    h3 {
+      font-size: 19px;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+  }
+  .ai-saas-news-box {
+    margin-top: 25px;
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+    .box {
+      .content {
+        margin-left: 0;
+
+        h3 {
+          font-size: 19px;
+          letter-spacing: -0.5px;
+        }
+        .meta {
+          li {
+            .author {
+              img {
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+            &::before {
+              top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .most-popular-tabs {
+    .nav {
+      &.nav-tabs {
+        text-align: start;
+        margin: {
+          top: 10px;
+          bottom: 30px;
+        }
+        .nav-item {
+          margin: {
+            left: 5px;
+            right: 5px;
+          }
+          .nav-link {
+            padding: 0;
+
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .single-most-popular-post {
+    margin-bottom: 25px;
+
+    .image {
+      margin-right: 0;
+    }
+    .content {
+      padding-left: 0;
+
+      h3 {
+        font-size: 19px;
+        margin-bottom: 10px;
+        letter-spacing: -0.5px;
+      }
+      .meta {
+        margin-bottom: 12px;
+        display: block !important;
+
+        li {
+          display: inline-block;
+
+          .author {
+            img {
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+          &::before {
+            top: 8px;
+            left: auto;
+            right: -21px;
+          }
+          &:nth-child(1) {
+            display: block;
+            margin-bottom: 12px;
+          }
+          &:last-child {
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .atar-ads {
+    margin-bottom: 25px;
+  }
+  .search-box {
+    margin: {
+      top: 30px;
+      bottom: 25px;
+    }
+    form {
+      button {
+        right: 20px;
+        font-size: 22px;
+      }
+    }
+  }
+  .load-more-btn {
+    margin-top: 25px;
+  }
+
+  // Page Banner Area CSS
+  .page-banner-area {
+    padding: {
+      top: 80px;
+      bottom: 80px;
+    }
+  }
+  .page-banner-content {
+    h1 {
+      font-size: 32px;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+    }
+    ul {
+      li {
+        font-size: 15px;
+        letter-spacing: -0.2px;
+        margin: {
+          left: 13px;
+          right: 13px;
+        }
+        &::before {
+          right: -21px;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  // Not Found Area CSS
+  .not-found-area {
+    img {
+      margin-bottom: 35px;
+    }
+    h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      letter-spacing: -0.8px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .default-btn {
+      margin-top: 10px;
+    }
+  }
+
+  // Pagination Area CSS
+  .pagination-area {
+    margin-top: 5px;
+
+    .pagination {
+      .page-item {
+        .page-link {
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+
+  // Profile Authentication Area CSS
+  .profile-authentication-tabs {
+    max-width: 550px;
+
+    .nav {
+      &.nav-tabs {
+        margin-bottom: 30px;
+
+        .nav-item {
+          margin: {
+            left: 8px;
+            right: 8px;
+          }
+          .nav-link {
+            font-size: 22px;
+            letter-spacing: -0.5px;
+          }
+        }
+      }
+    }
+    form {
+      .form-check {
+        padding-left: 32px;
+      }
+    }
+  }
+
+  // Coming Soon Area CSS
+  .coming-soon-content {
+    .logo {
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+    #countdown {
+      margin: {
+        bottom: 30px;
+        top: 20px;
+      }
+    }
+    form {
+      margin-bottom: 25px;
+
+      .input-newsletter {
+        height: 55px;
+        padding: {
+          left: 18px;
+          right: 18px;
+        }
+      }
+    }
+    .socials-link {
+      li {
+        a {
+          width: 35px;
+          height: 35px;
+          font-size: 16px;
+          line-height: 36px;
+        }
+      }
+    }
+    .more-info {
+      margin-top: 20px;
+    }
+  }
+
+  // Products Area CSS
+  .products-area {
+    .load-more-btn {
+      margin-top: 0;
+    }
+  }
+  .single-product-box {
+    margin-bottom: 25px;
+
+    .image {
+      .fav {
+        top: 10px;
+        opacity: 1;
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+        line-height: 43px;
+        visibility: visible;
+      }
+      &::before {
+        display: none;
+      }
+      .cart-btn {
+        visibility: visible;
+        bottom: 15px;
+        opacity: 1;
+
+        .default-btn {
+          padding-right: 47px;
+
+          i {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .content {
+      margin-top: 20px;
+
+      h3 {
+        letter-spacing: -0.8px;
+        margin-bottom: 10px;
+        font-size: 19px;
+      }
+      .price {
+        font-size: 16px;
+      }
+    }
+  }
+  .products-sidebar {
+    margin-top: 25px;
+
+    .search-box {
+      margin: {
+        bottom: 25px;
+        top: 0;
+      }
+    }
+    .categories-box {
+      margin-bottom: 25px;
+
+      h3 {
+        letter-spacing: -0.8px;
+        margin-bottom: 22px;
+        font-size: 19px;
+      }
+    }
+    .colors-box {
+      margin-bottom: 25px;
+
+      h3 {
+        letter-spacing: -0.8px;
+        margin-bottom: 5px;
+        font-size: 19px;
+      }
+      .colors {
+        .form-check {
+          margin-right: 10px;
+
+          .form-check-input {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+    .price-range-slider {
+      h3 {
+        letter-spacing: -0.8px;
+        margin-bottom: 20px;
+        font-size: 19px;
+      }
+    }
+    .featured-ads-box {
+      margin-top: 25px;
+    }
+  }
+
+  // Product Details Area CSS
+  .product-details-image {
+    margin-right: 0;
+  }
+  .product-details-content {
+    margin-top: 30px;
+
+    .rating {
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 32px;
+      margin-bottom: 11px;
+      letter-spacing: -1px;
+    }
+    .price {
+      margin-bottom: 15px;
+      font-size: 20px;
+
+      span {
+        &:nth-child(2) {
+          font-size: 17px;
+          margin-left: -4px;
+        }
+      }
+    }
+    p {
+      max-width: 100%;
+    }
+    .features-list {
+      margin: {
+        top: 15px;
+        bottom: 15px;
+      }
+      li {
+        font-size: 15px;
+      }
+    }
+    .input-counter {
+      margin-top: 25px;
+
+      .number-counter {
+        height: 50.5px;
+        line-height: 50.5px;
+        padding: {
+          left: 45px;
+          right: 45px;
+        }
+      }
+    }
+  }
+  .product-details-tabs {
+    max-width: 100%;
+    margin-top: 40px;
+
+    .nav {
+      &.nav-tabs {
+        max-width: 325px;
+        margin-bottom: 25px;
+
+        .nav-item {
+          margin: {
+            left: 10px;
+            right: 10px;
+          }
+          .nav-link {
+            font-size: 17px;
+            padding: 10px 25px;
+          }
+        }
+      }
+    }
+    .tab-content {
+      p {
+        margin-bottom: 15px;
+      }
+    }
+    .reviews-list {
+      .review-item {
+        padding: {
+          top: 27px;
+          left: 85px;
+          bottom: 20px;
+        }
+        img {
+          top: 20px;
+        }
+        h3 {
+          font-size: 17px;
+          letter-spacing: -0.7px;
+        }
+        .date {
+          margin-bottom: 15px;
+        }
+        .rating {
+          top: 27px;
+        }
+      }
+    }
+    .review-form {
+      margin-top: 40px;
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+        letter-spacing: -1px;
+      }
+      .ratings {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // Cart Area CSS
+  .cart-table {
+    .table {
+      thead {
+        tr {
+          th {
+            padding: 0 0 10px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 20px 20px 20px 0;
+            white-space: nowrap;
+
+            .product {
+              display: block !important;
+              letter-spacing: -0.5px;
+              font-size: 17px;
+
+              img {
+                width: 80px;
+                display: block;
+                margin: {
+                  right: 0;
+                  bottom: 15px;
+                }
+              }
+            }
+            &.price {
+              font-size: 18px;
+            }
+            .remove {
+              font-size: 24px;
+            }
+            .number-counter {
+              height: 55px;
+              line-height: 55px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .coupon-cart {
+    form {
+      .default-btn {
+        margin: {
+          top: 2px;
+          right: 2px;
+          bottom: 2px;
+        }
+      }
+    }
+    .update-cart-btn {
+      font-size: 15px;
+      padding: 14px 20px;
+    }
+  }
+  .cart-totals-box {
+    .box {
+      h3 {
+        letter-spacing: -0.8px;
+        font-size: 19px;
+        padding: 20px;
+      }
+      div {
+        padding: 20px;
+
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  // Wishlist Area CSS
+  .wishlist-table {
+    .table {
+      thead {
+        tr {
+          th {
+            padding: 0 0 10px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 20px 20px 20px 0;
+            white-space: nowrap;
+
+            .product {
+              display: block !important;
+              letter-spacing: -0.5px;
+              font-size: 17px;
+
+              img {
+                width: 80px;
+                display: block;
+                margin: {
+                  right: 0;
+                  bottom: 15px;
+                }
+              }
+            }
+            &.price {
+              font-size: 18px;
+            }
+            &.instock {
+              font-size: 15px;
+            }
+            &.out-of-stock {
+              font-size: 15px;
+            }
+            .remove {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .continue-shopping-btn {
+    margin-top: 25px;
+    font-size: 15px;
+  }
+
+  // Checkout Area CSS
+  .billing-details-box {
+    h3 {
+      letter-spacing: -0.8px;
+      margin-bottom: 22px;
+      font-size: 24px;
+    }
+  }
+  .additional-info-box {
+    margin-top: 30px;
+
+    h3 {
+      letter-spacing: -0.8px;
+      margin-bottom: 22px;
+      font-size: 24px;
+    }
+  }
+  .your-orders-box {
+    padding-left: 0;
+    margin-top: 30px;
+
+    h3 {
+      margin-bottom: 20px;
+    }
+    ul {
+      li {
+        padding: {
+          top: 15px;
+          bottom: 15px;
+        }
+        img {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .payment-method-box {
+    margin: {
+      top: 30px;
+      left: 0;
+    }
+    h3 {
+      padding: 20px;
+    }
+    ul {
+      li {
+        padding: {
+          left: 20px;
+          right: 20px;
+        }
+      }
+    }
+    .bottom {
+      padding: 15px 20px 20px;
+
+      .default-btn {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Contact Area CSS
+  .contact-image {
+    margin-top: 25px;
+    padding: {
+      left: 275px;
+      top: 150px;
+      right: 0;
+    }
+    .contact-info {
+      top: 0;
+      padding: 25px;
+      max-width: 425px;
+
+      .box {
+        margin-bottom: 25px;
+
+        h3 {
+          margin-bottom: 12px;
+        }
+      }
+      .socials-link {
+        margin-top: 0;
+
+        a {
+          font-size: 15px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  // Instagram Area CSS
+  .instagram-area {
+    .row {
+      margin-bottom: -25px;
+
+      .col {
+        flex: 0 0 auto;
+        width: 25%;
+      }
+    }
+  }
+  .instagram-post {
+    margin-bottom: 25px;
+
+    i {
+      font-size: 20px;
+    }
+  }
+
+  // Footer Area CSS
+  .footer-area {
+    .footer-items {
+      margin-left: 0;
+    }
+  }
+  .single-footer-widget {
+    .logo {
+      margin-bottom: 15px;
+    }
+    p {
+      max-width: 100%;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .custom-links {
+      li {
+        margin-bottom: 15px;
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  // Copyright Area CSS
+  .copyright-area {
+    padding: {
+      top: 25px;
+      bottom: 25px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+
+  // Back to Top CSS
+  #backtotop {
+    right: 25px;
+    width: 42px;
+    bottom: 25px;
+    height: 42px;
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  /* Start "AI Generator Demo Responsive" */
+
+  .all-shapes {
+    display: none;
+  }
+  .container {
+    &.demo-four-container {
+      max-width: 720px;
+    }
+  }
+  .mt-50 {
+    margin-top: 30px;
+  }
+  .section-bg-area {
+    &::before {
+      top: 0;
+      left: 0;
+      right: 0;
+      border-radius: 0;
+    }
+  }
+  .section-warp {
+    margin-bottom: 30px;
+    display: block;
+    .content {
+      .title {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+      h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .four-section-title {
+    margin-bottom: 30px;
+    .title {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 28px;
+    }
+  }
+
+  // Hero Area CSS
+  .demo-four-hero-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .demo-four-content {
+    .title {
+      font-size: 14px;
+      margin-bottom: -4px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+      letter-spacing: -1px;
+      span {
+        margin-left: 0;
+      }
+    }
+    .search-input {
+      .form-control {
+        font-size: 12px;
+      }
+      .input-button {
+        top: 3px;
+        right: 3px;
+        bottom: 0;
+        width: 45px;
+        height: 44px;
+      }
+    }
+    .tabs {
+      .nav-tabs {
+        .nav-item {
+          .nav-link {
+            padding: 14px 28px;
+          }
+        }
+      }
+    }
+    .banner-small-card {
+      margin-top: 50px;
+      display: inline-block;
+      .banner-card {
+        margin-bottom: 30px;
+        display: inline-block;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  // Generate Image Area CSS
+  .generate-image {
+    padding-right: 0;
+    margin-bottom: 25px;
+    &.style2 {
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+  }
+  .generate-image-content {
+    padding-left: 0;
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    ul {
+      li {
+        padding-left: 27px;
+        margin-bottom: 14px;
+        i {
+          top: -3px;
+          font-size: 16px;
+        }
+      }
+    }
+    &.style2 {
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 25px;
+    }
+  }
+
+  // Chatbot Area CSS
+  .inner-chatbot-widget {
+    padding: 25px 20px;
+    .all-logos {
+      display: inline-block;
+      .chatbot-shape1 {
+        display: none;
+      }
+      .main-logo {
+        position: relative;
+        width: 81.455px;
+        height: 81.401px;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        transform: unset;
+        top: 0;
+      }
+      .logo1 {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+      .logo2 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .logo3 {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+      .logo4 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .logo5 {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+      .logo6 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .logo7 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .logo8 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .logo9 {
+        position: relative;
+        top: 0;
+        right: 0;
+      }
+      .logo10 {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+    }
+    .chatbot {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .chatbot-list {
+      margin-top: 25px;
+      margin-right: 0;
+      display: block;
+      li {
+        padding-left: 26px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        flex-shrink: 0;
+        max-width: 100%;
+        &:last-child {
+          margin-bottom: 0;
+          max-width: 100%;
+        }
+        &:nth-child(2) {
+          max-width: 100%;
+        }
+        i {
+          top: 0;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // Works Area CSS
+  .works-card {
+    .image {
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+  }
+
+  // Pricing Area CSS
+  .four-pricing-card {
+    padding: 30px 20px;
+    margin-top: 15px;
+  }
+  .four-pricing-card {
+    .new {
+      font-size: 12px;
+      width: 80px;
+      height: 22px;
+      line-height: 22px;
+    }
+    h5 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 35px;
+      letter-spacing: -1px;
+      span {
+        left: -17px;
+      }
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    ul {
+      margin-top: 20px;
+      li {
+        margin-bottom: 16px;
+        padding-left: 25px;
+        i {
+          top: -2px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // Testimonial Area CSS
+  .four-testimonial-card {
+    padding: 25px 20px;
+    .star {
+      margin-bottom: 12px;
+      i {
+        font-size: 14px;
+      }
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .details {
+      .image {
+        width: 40px;
+        height: 40px;
+      }
+      .content {
+        h5 {
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+  .inner-download-area {
+    padding: 55px 20px 55px 20px;
+    .download-image {
+      position: absolute;
+      width: 230px;
+    }
+  }
+  .download-content {
+    margin-bottom: 10px;
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  }
+
+  // Faq Area CSS
+  .demo-four-faq-content {
+    padding-right: 0;
+    margin-bottom: 25px;
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 14px;
+      letter-spacing: -1px;
+    }
+    p {
+      margin-bottom: 18px;
+    }
+    .default-btn {
+      margin-top: 0;
+    }
+  }
+
+  // Follow Us Area CSS
+  .inner-follow-us {
+    padding: 25px 20px 0 20px;
+    border-radius: 42px;
+    background-color: #342064;
+    .follow-image1 {
+      position: relative;
+      border-radius: 0;
+    }
+    .follow-content {
+      margin-bottom: 20px;
+      .title {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+      h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  /* End "AI Generator Demo Responsive" */
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  // Default CSS
+  .ptb-120 {
+    padding: {
+      top: 100px;
+      bottom: 100px;
+    }
+  }
+  .pt-120 {
+    padding-top: 100px;
+  }
+  .pb-120 {
+    padding-bottom: 100px;
+  }
+  .ptb-95 {
+    padding: {
+      top: 75px;
+      bottom: 75px;
+    }
+  }
+  .pt-95 {
+    padding-top: 75px;
+  }
+  .pb-95 {
+    padding-bottom: 75px;
+  }
+  .ptb-80 {
+    padding: {
+      top: 70px;
+      bottom: 70px;
+    }
+  }
+  .pt-80 {
+    padding-top: 70px;
+  }
+  .pb-80 {
+    padding-bottom: 70px;
+  }
+  .ptb-55 {
+    padding: {
+      top: 45px;
+      bottom: 45px;
+    }
+  }
+  .pt-55 {
+    padding-top: 45px;
+  }
+  .pb-55 {
+    padding-bottom: 45px;
+  }
+  .container-fluid {
+    max-width: 960px;
+    padding: {
+      left: calc(var(--bs-gutter-x) * 0.5);
+      right: calc(var(--bs-gutter-x) * 0.5);
+    }
+  }
+
+  // Form Control
+  .form-control {
+    height: 60px;
+    padding: {
+      left: 20px;
+      right: 20px;
+    }
+  }
+  textarea.form-control {
+    padding-top: 20px;
+  }
+
+  // Form Select
+  .form-select {
+    height: 60px;
+    padding: {
+      left: 20px;
+      right: 20px;
+    }
+  }
+
+  // Default Btn
+  .default-btn {
+    padding: 15.5px 47px 15.5px 20px;
+    font-size: 15px;
+  }
+
+  // Section Title
+  .section-title {
+    h2 {
+      font-size: 34px;
+      letter-spacing: -1px;
+    }
+  }
+
+  // Navbar Area CSS
+  .navbar {
+    padding: {
+      top: 10px;
+      bottom: 10px;
+    }
+    .navbar-nav {
+      .nav-item {
+        margin: {
+          left: 12px;
+          right: 12px;
+        }
+        .dropdown-toggle {
+          padding-right: 16px;
+
+          &::after {
+            top: 5px;
+            font-size: 20px;
+          }
+        }
+        .dropdown-menu {
+          width: 260px;
+        }
+      }
+    }
+    .others-option {
+      .option-item {
+        margin-left: 22px;
+
+        .search-btn {
+          top: 2px;
+          font-size: 20px;
+        }
+        .cart-btn {
+          top: 2px;
+          font-size: 23px;
+
+          span {
+            top: -11px;
+            width: 20px;
+            right: -11px;
+            height: 20px;
+            font-size: 11px;
+            line-height: 20px;
+          }
+        }
+        .link-btn {
+          font-size: 15px;
+        }
+        .default-btn {
+          top: 1px;
+          padding: 0;
+          width: 38px;
+          height: 38px;
+          text-align: center;
+          border-radius: 50%;
+
+          i {
+            left: 0;
+            right: 0;
+          }
+          &::before {
+            border-radius: 50%;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+    &.sticky {
+      padding: {
+        top: 5px;
+        bottom: 5px;
+      }
+    }
+    &.navbar-style-two {
+      .others-option {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  // Search Modal
+  .searchModal {
+    .modal-dialog {
+      padding: {
+        top: 25px;
+        bottom: 25px;
+      }
+      .modal-content {
+        form {
+          .input-search {
+            height: 55px;
+            padding: {
+              left: 20px;
+              right: 20px;
+            }
+          }
+          button {
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+
+  // Banner Area CSS
+  .banner-area {
+    &::before {
+      height: 100px;
+    }
+  }
+  .banner-content {
+    h1 {
+      font-size: 58px;
+      line-height: 1.1;
+      margin-bottom: 17px;
+      letter-spacing: -2px;
+    }
+    p {
+      max-width: 100%;
+    }
+    .default-btn {
+      margin-top: 12px;
+    }
+  }
+  .banner-search {
+    max-width: 100%;
+    margin-left: 0;
+
+    form {
+      .input-search {
+        height: 65px;
+        padding: {
+          left: 20px;
+          right: 20px;
+        }
+      }
+      button {
+        padding: 8px 22px;
+        margin: {
+          top: 8px;
+          right: 8px;
+          bottom: 8px;
+        }
+      }
+    }
+  }
+  .bannerSwiper2 {
+    margin-top: 20px;
+  }
+
+  // Main Banner Area CSS
+  .main-banner-image {
+    padding-right: 0;
+
+    .box {
+      padding: 15px;
+      right: -15px;
+      left: auto;
+
+      img {
+        width: 30px;
+        margin-right: 10px;
+      }
+    }
+    .typewriter {
+      left: auto;
+      right: -15px;
+      width: 300px;
+      padding: 15px;
+    }
+  }
+  .main-banner-content {
+    padding-left: 18px;
+    margin-bottom: 0;
+
+    h1 {
+      font-size: 51px;
+      margin-bottom: 20px;
+      letter-spacing: -1.5px;
+    }
+    .default-btn {
+      margin-top: 10px;
+    }
+    div {
+      max-width: 100%;
+      margin: {
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+  .shape3 {
+    left: 65%;
+    bottom: 5%;
+  }
+  .shape4 {
+    display: none;
+  }
+
+  // Banner Posts Area CSS
+  .banner-posts-area {
+    .container-fluid {
+      max-width: 100%;
+    }
+  }
+  .single-banner-post {
+    .content {
+      padding: 10px;
+
+      .meta {
+        padding: 5px 8px;
+
+        ul {
+          li {
+            margin-right: 15px;
+
+            .author {
+              img {
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+      h3 {
+        font-size: 20px;
+        letter-spacing: -0.8px;
+
+        a {
+          line-height: 1.8;
+          padding: 4px 8px;
+        }
+      }
+    }
+  }
+
+  // What We Do Area CSS
+  .what-we-do-image {
+    padding-right: 0;
+
+    .typewriter {
+      right: 0;
+      width: 320px;
+      padding: 15px 20px;
+    }
+  }
+  .what-we-do-content {
+    padding-left: 5px;
+
+    .sub-title {
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-size: 34px;
+      margin-bottom: 18px;
+      letter-spacing: -1px;
+    }
+    .default-btn {
+      margin-top: 12px;
+    }
+  }
+  .what-we-do-img {
+    padding-right: 100px;
+
+    img {
+      &:nth-child(2) {
+        right: 0;
+        width: 85px;
+      }
+    }
+    .typewriter {
+      right: 0;
+      width: 320px;
+      padding: 15px 20px;
+    }
+    &::before {
+      margin-right: 0;
+    }
+  }
+
+  // Features Area CSS
+  .single-feature-box {
+    padding: 40px 30px 40px 175px;
+
+    img {
+      top: 40px;
+      left: 30px;
+    }
+    h3 {
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+  }
+
+  // Services Area CSS
+  .services-tabs {
+    .tabs {
+      .nav {
+        &.nav-tabs {
+          padding: 15px 25px;
+        }
+      }
+      .content {
+        margin-right: -55px;
+
+        h3 {
+          letter-spacing: -1px;
+          margin-bottom: 25px;
+          font-size: 34px;
+        }
+      }
+      .images {
+        padding: {
+          left: 50px;
+          right: 40px;
+          bottom: 110px;
+        }
+        &::before {
+          margin: {
+            right: 0;
+            left: 0;
+            top: 0;
+          }
+        }
+        img {
+          &:nth-child(2) {
+            width: 70px;
+            right: 0;
+          }
+          &:nth-child(3) {
+            right: 0;
+            width: 150px;
+          }
+        }
+      }
+      .description {
+        padding-top: 20px;
+        margin-left: 5px;
+
+        p {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .single-service-box {
+    .image {
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 22px;
+      letter-spacing: -1px;
+    }
+  }
+
+  // Text Slider Area CSS
+  .text-slider-area {
+    .swiper-wrapper {
+      .swiper-slide {
+        div {
+          letter-spacing: -2px;
+          font-size: 55px;
+          margin: {
+            top: -20px;
+            bottom: -7px;
+          }
+        }
+      }
+    }
+  }
+
+  // Portfolio Area CSS
+  .explore-more-btn {
+    margin-top: 30px;
+
+    a {
+      font-size: 15px;
+    }
+  }
+
+  // Subscribe Area CSS
+  .subscribe-inner-box {
+    padding: 80px 40px;
+
+    .content {
+      .sub-title {
+        margin-bottom: 8px;
+      }
+      h2 {
+        font-size: 34px;
+        letter-spacing: -1px;
+      }
+    }
+    .newsletter-form {
+      max-width: 100%;
+      margin-left: 0;
+
+      .form-group {
+        margin-bottom: 20px;
+
+        .input-newsletter {
+          height: 55px;
+        }
+      }
+    }
+    &.style-two {
+      padding: {
+        left: 40px;
+        right: 40px;
+      }
+      .newsletter-form {
+        max-width: 100%;
+      }
+    }
+  }
+
+  // Funfacts Area CSS
+  .single-funfact-box {
+    .number {
+      font-size: 75px;
+      letter-spacing: -3px;
+      margin: {
+        top: -28px;
+        bottom: -8px;
+      }
+    }
+    p {
+      max-width: 200px;
+    }
+    &::before {
+      top: 38%;
+      right: -60%;
+      width: 120px;
+      transform: translateY(-38%);
+    }
+    &::after {
+      top: 36%;
+      right: -35%;
+      width: 20px;
+      height: 20px;
+      transform: translateY(-36%);
+    }
+  }
+  .single-funfact-item {
+    .number {
+      font-size: 50px;
+      letter-spacing: -2px;
+    }
+  }
+  .funfacts-shape2 {
+    display: none;
+  }
+
+  // Why Choose Us Area CSS
+  .why-choose-left-content {
+    .image {
+      padding-right: 80px;
+
+      img {
+        &:nth-child(2) {
+          right: 0;
+          top: 180px;
+          width: 150px;
+        }
+      }
+      &::before {
+        top: 0;
+        right: 0;
+      }
+    }
+    .content {
+      margin-top: 95px;
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 17px;
+        letter-spacing: -1px;
+      }
+      p {
+        max-width: 100%;
+      }
+      .default-btn {
+        margin-top: 10px;
+      }
+    }
+  }
+  .why-choose-right-content {
+    .content {
+      padding-left: 10px;
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 17px;
+        letter-spacing: -1px;
+      }
+    }
+    .image {
+      margin-top: 100px;
+      padding-left: 60px;
+
+      .box {
+        left: -20px;
+        width: 390px;
+        bottom: 75px;
+        padding: 20px;
+
+        span {
+          font-size: 15px;
+          margin-bottom: 15px;
+          padding-bottom: 13px;
+        }
+        p {
+          margin-bottom: 17px;
+          padding-bottom: 15px;
+        }
+        .copy-btn {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .single-why-choose-box {
+    .image {
+      height: 225px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 17px;
+    }
+    &:hover {
+      .image {
+        img {
+          transform: translateY(-28px);
+        }
+      }
+    }
+  }
+  .col-lg-3 {
+    &:nth-child(2),
+    &:nth-child(4),
+    &:nth-child(6),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        h3 {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(7),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        .image {
+          img {
+            transform: translateY(-28px);
+          }
+        }
+        &:hover {
+          .image {
+            img {
+              transform: translateY(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Video Area CSS
+  .video-box {
+    .video-btn {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .shape6 {
+    right: 5%;
+  }
+
+  // FAQ Area CSS
+  .faq-accordion {
+    .accordion {
+      .accordion-item {
+        margin-bottom: 15px;
+
+        .accordion-button {
+          padding: 15px 31px 15px 15px;
+
+          &::before {
+            right: 14px;
+          }
+        }
+        .accordion-collapse {
+          .accordion-body {
+            padding: 12px 0 15px;
+            margin: {
+              left: 15px;
+              right: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .faq-image {
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+
+  // Chatbot Area CSS
+  .chatbot-inner-box {
+    padding: 60px 40px;
+
+    .content {
+      h2 {
+        font-size: 34px;
+        margin-bottom: 25px;
+        letter-spacing: -1px;
+      }
+      .default-btn {
+        margin-top: 0;
+      }
+    }
+    .image {
+      .typewriter {
+        left: 0;
+      }
+    }
+  }
+
+  // Blog Area CSS
+  .blog-items {
+    margin: {
+      left: -25px;
+      right: -25px;
+    }
+    .col-lg-4 {
+      padding: {
+        left: 25px;
+        right: 25px;
+      }
+    }
+  }
+  .single-blog-post {
+    .content {
+      h3 {
+        line-height: 1.5;
+      }
+    }
+  }
+
+  // Blog Details Area CSS
+  .blog-details-header {
+    padding-right: 0;
+
+    h2 {
+      font-size: 35px;
+      letter-spacing: -1.5px;
+    }
+  }
+  .blog-details-image {
+    margin: {
+      top: 30px;
+      bottom: 30px;
+    }
+  }
+  .blog-details-content {
+    padding-right: 0;
+
+    .features-list {
+      margin: {
+        top: 25px;
+        bottom: 25px;
+      }
+    }
+    .images {
+      margin: {
+        top: 30px;
+        bottom: 30px;
+      }
+    }
+  }
+  .blog-details-info {
+    margin: {
+      top: 30px;
+      right: 0;
+    }
+    .tags {
+      span {
+        font-size: 17px;
+      }
+      a {
+        padding: 6px 14px;
+      }
+    }
+    .socials-link {
+      span {
+        font-size: 17px;
+        margin-right: 5px;
+      }
+      a {
+        margin-right: 5px;
+        font-size: 15px;
+      }
+    }
+  }
+  .blog-details-prev-next {
+    margin-top: 30px;
+    padding-right: 0;
+
+    .sub-title {
+      margin-bottom: 18px;
+    }
+    .box {
+      padding-left: 100px;
+
+      img {
+        width: 85px;
+      }
+      span {
+        margin-bottom: 8px;
+      }
+      h3 {
+        max-width: 100%;
+        font-size: 16px;
+      }
+    }
+    .col-lg-6 {
+      &:nth-child(2) {
+        .box {
+          padding: {
+            left: 0;
+            right: 100px;
+          }
+        }
+      }
+    }
+  }
+  .blog-details-comments-area {
+    margin-top: 50px;
+    padding-right: 0;
+
+    h2 {
+      font-size: 35px;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+    }
+  }
+  .blog-details-post-comment {
+    margin-top: 40px;
+    padding-right: 0;
+
+    h2 {
+      font-size: 35px;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+  }
+
+  // Testimonials Area CSS
+  .testimonials-area {
+    .section-title {
+      padding-left: 25px;
+    }
+  }
+  .single-testimonial-box {
+    padding: 35px;
+
+    .client-info {
+      margin-bottom: 20px;
+    }
+    &::before {
+      font-size: 70px;
+    }
+  }
+  .testimonialsSwiper {
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 50px;
+      height: 50px;
+      margin-top: 40px;
+    }
+    .swiper-button-prev {
+      margin-left: 200px !important;
+    }
+  }
+
+  // Automation Area CSS
+  .automation-content {
+    padding-right: 0;
+
+    .sub-title {
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 33px;
+      margin-bottom: 20px;
+    }
+  }
+  .automation-image {
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+  .automation-text {
+    padding-left: 0;
+    margin-top: 0;
+
+    .shape5 {
+      margin-bottom: 20px;
+    }
+    .link-btn {
+      font-size: 15px;
+    }
+  }
+  .shape7 {
+    left: 5%;
+    bottom: 15%;
+  }
+
+  // Integration Area CSS
+  .integration-box {
+    max-width: 720px;
+    margin: {
+      top: 135px;
+      bottom: 125px;
+    }
+    .cube {
+      margin-top: -40px;
+    }
+    .list {
+      div {
+        width: 100px;
+        height: 100px;
+
+        &:nth-child(1) {
+          left: -90px;
+          top: -70px;
+        }
+        &:nth-child(2) {
+          left: 115px;
+          top: -95px;
+        }
+        &:nth-child(3) {
+          left: -25px;
+          top: 75px;
+        }
+        &:nth-child(4) {
+          left: -85px;
+          bottom: -50px;
+        }
+        &:nth-child(5) {
+          left: 145px;
+          bottom: -85px;
+        }
+        &:nth-child(6) {
+          right: 118px;
+          top: -98px;
+        }
+        &:nth-child(7) {
+          right: -95px;
+          top: -60px;
+        }
+        &:nth-child(8) {
+          right: -25px;
+          top: 70px;
+        }
+        &:nth-child(9) {
+          right: -75px;
+          bottom: -45px;
+        }
+        &:nth-child(10) {
+          right: 135px;
+          bottom: -85px;
+        }
+      }
+    }
+    .atar-border {
+      top: -140px;
+      margin-left: 15px;
+    }
+  }
+  .integration-content {
+    max-width: 100%;
+    padding: 40px 30px;
+
+    .box {
+      padding-left: 35px;
+    }
+  }
+
+  // Pricing Area CSS
+  .pricing-area {
+    .section-title {
+      margin-bottom: 40px;
+    }
+    .shape6 {
+      display: none;
+    }
+  }
+
+  // Popular Articles Area CSS
+  .popular-articles-area {
+    .container-fluid {
+      &:nth-child(2) {
+        padding: {
+          left: calc(var(--bs-gutter-x) * 0.5);
+          right: calc(var(--bs-gutter-x) * 0.5);
+        }
+      }
+    }
+  }
+  .single-popular-article-post {
+    padding: {
+      top: 30px;
+      left: 25px;
+      right: 25px;
+      bottom: 30px;
+    }
+    h3 {
+      font-size: 25px;
+      letter-spacing: -1px;
+    }
+    .meta {
+      margin-bottom: 15px;
+
+      li {
+        margin-right: 25px;
+
+        .author {
+          img {
+            margin-right: 8px;
+          }
+          a {
+            margin-left: 5px;
+          }
+        }
+        &::before {
+          top: 10px;
+          right: -15px;
+        }
+      }
+    }
+  }
+  .popular-articles-inner {
+    padding: {
+      left: 0;
+      right: 0;
+    }
+    &::before {
+      display: none;
+    }
+    .popularArticlesSwiper {
+      .swiper-slide {
+        &.swiper-slide-active {
+          .single-popular-article-post {
+            padding: {
+              left: 25px;
+              right: 25px;
+            }
+          }
+        }
+      }
+    }
+    .pa-swiper-button-next,
+    .pa-swiper-button-prev {
+      top: -65px;
+      right: 0;
+    }
+    .pa-swiper-button-prev {
+      right: 45px;
+    }
+  }
+
+  // Top Stories Area CSS
+  .single-top-story-post {
+    .content {
+      margin-top: 18px;
+    }
+  }
+  .topStoriesSwiper {
+    .ts-swiper-button-next,
+    .ts-swiper-button-prev {
+      transform: translateY(0);
+      position: relative;
+      margin-top: 25px;
+      left: 0;
+      top: 0;
+    }
+    .ts-swiper-button-next {
+      left: 0;
+      right: 0;
+      margin-left: 8px;
+    }
+  }
+
+  // Featured Posts Area CSS
+  .featured-posts-inner {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+
+    h2 {
+      font-size: 34px;
+      letter-spacing: -1px;
+    }
+  }
+  .single-featured-post {
+    padding-bottom: 25px;
+    margin: {
+      bottom: 25px;
+      right: 0;
+    }
+    .image {
+      margin-right: 0;
+    }
+    .content {
+      margin-left: -5px;
+
+      .meta {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .featured-trending-posts {
+    padding: 25px 20px;
+
+    .box {
+      margin-bottom: 12px;
+      padding: {
+        left: 0;
+        bottom: 20px;
+      }
+      h3 {
+        line-height: 1.4;
+        margin-bottom: 10px;
+      }
+      .meta {
+        li {
+          margin-right: 25px;
+
+          .author {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+            }
+          }
+          &::before {
+            top: 10px;
+            right: -15px;
+          }
+        }
+      }
+      &:before {
+        display: none;
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .featured-ads-box {
+    padding: 25px 20px;
+    margin-top: 25px;
+
+    h3 {
+      font-size: 20px;
+      letter-spacing: -0.8px;
+    }
+    img {
+      margin: {
+        bottom: -15px;
+        right: -15px;
+        top: 15px;
+      }
+    }
+  }
+
+  // Recent Posts Area CSS
+  .recent-posts-list {
+    .box {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  // Most Popular Area CSS
+  .most-popular-inner {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+
+    h2 {
+      font-size: 34px;
+      letter-spacing: -1px;
+    }
+  }
+  .top-news-posts {
+    padding: 25px 20px;
+
+    .box {
+      margin-bottom: 12px;
+      padding: {
+        left: 0;
+        bottom: 20px;
+      }
+      h3 {
+        line-height: 1.4;
+        margin-bottom: 10px;
+      }
+      .meta {
+        li {
+          margin-right: 25px;
+
+          .author {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+            }
+          }
+          &::before {
+            top: 10px;
+            right: -15px;
+          }
+        }
+      }
+      &:before {
+        display: none;
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .popular-tags-box {
+    margin-top: 30px;
+
+    h3 {
+      margin-bottom: 10px;
+    }
+  }
+  .ai-saas-news-box {
+    margin-top: 30px;
+
+    h3 {
+      margin-bottom: 25px;
+    }
+    .box {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+
+      .content {
+        margin-left: -10px;
+
+        h3 {
+          font-size: 16px;
+          letter-spacing: -0.5px;
+        }
+        .meta {
+          display: block !important;
+
+          li {
+            margin: {
+              right: 0;
+              bottom: 10px;
+            }
+            .author {
+              img {
+                width: 22px;
+                height: 22px;
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+            &::before {
+              display: none;
+            }
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .most-popular-tabs {
+    .nav {
+      &.nav-tabs {
+        margin: {
+          top: -73px;
+          bottom: 30px;
+        }
+        .nav-item {
+          margin: {
+            left: 5px;
+            right: 5px;
+          }
+          .nav-link {
+            font-size: 16px;
+            padding: 0 0 20px;
+          }
+        }
+      }
+    }
+  }
+  .single-most-popular-post {
+    .image {
+      margin-right: 0;
+    }
+    .content {
+      padding-left: 0;
+      margin-left: -5px;
+
+      h3 {
+        font-size: 18px;
+        letter-spacing: -0.8px;
+      }
+      .meta {
+        margin-bottom: 15px;
+        display: block !important;
+
+        li {
+          margin: {
+            right: 0;
+            bottom: 10px;
+          }
+          .author {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+          &::before {
+            display: none;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .search-box {
+    margin-bottom: 25px;
+
+    form {
+      button {
+        right: 20px;
+        font-size: 22px;
+      }
+    }
+  }
+  .load-more-btn {
+    margin-top: 30px;
+  }
+
+  // Page Banner Area CSS
+  .page-banner-area {
+    padding: {
+      top: 100px;
+      bottom: 100px;
+    }
+  }
+  .page-banner-content {
+    h1 {
+      font-size: 40px;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+    }
+  }
+
+  // Products Area CSS
+  .single-product-box {
+    margin-bottom: 30px;
+
+    .content {
+      margin-top: 20px;
+
+      h3 {
+        margin-bottom: 11px;
+      }
+      .price {
+        font-size: 17px;
+      }
+    }
+  }
+  .products-sidebar {
+    .search-box {
+      margin-bottom: 30px;
+    }
+    .categories-box {
+      margin-bottom: 30px;
+
+      h3 {
+        margin-bottom: 22px;
+      }
+    }
+    .colors-box {
+      margin-bottom: 30px;
+
+      .colors {
+        .form-check {
+          margin-right: 10px;
+        }
+      }
+    }
+    .featured-ads-box {
+      margin-top: 30px;
+      padding: 30px 20px 15px;
+    }
+    .popular-tags-box {
+      margin-top: 30px;
+    }
+  }
+
+  // Product Details Area CSS
+  .product-details-image {
+    margin-right: 10px;
+  }
+  .product-details-content {
+    .rating {
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 35px;
+      letter-spacing: -1.5px;
+    }
+    .price {
+      margin-bottom: 20px;
+      font-size: 20px;
+
+      span {
+        &:nth-child(2) {
+          font-size: 18px;
+          margin-left: -4px;
+        }
+      }
+    }
+    p {
+      max-width: 100%;
+    }
+    .features-list {
+      margin: {
+        top: 20px;
+        bottom: 15px;
+      }
+    }
+    .input-counter {
+      margin-top: 25px;
+
+      .number-counter {
+        height: 53.5px;
+        line-height: 53.5px;
+        padding: {
+          left: 45px;
+          right: 45px;
+        }
+      }
+    }
+  }
+  .product-details-tabs {
+    margin-top: 50px;
+
+    .nav {
+      &.nav-tabs {
+        max-width: 355px;
+        margin-bottom: 35px;
+      }
+    }
+    .tab-content {
+      p {
+        margin-bottom: 15px;
+      }
+    }
+    .reviews-list {
+      .review-item {
+        padding: {
+          top: 32px;
+          left: 85px;
+          bottom: 25px;
+        }
+        img {
+          top: 25px;
+        }
+        .rating {
+          top: 32px;
+        }
+      }
+    }
+    .review-form {
+      margin-top: 50px;
+
+      h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+        letter-spacing: -1.5px;
+      }
+      .ratings {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // Cart Area CSS
+  .cart-table {
+    .table {
+      tbody {
+        tr {
+          td {
+            .product {
+              font-size: 18px;
+
+              img {
+                width: 80px;
+                margin-right: 20px;
+              }
+            }
+            &.price {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .cart-totals-box {
+    .box {
+      h3 {
+        padding: 25px;
+      }
+      div {
+        padding: 25px;
+      }
+    }
+  }
+
+  // Wishlist Area CSS
+  .wishlist-table {
+    .table {
+      tbody {
+        tr {
+          td {
+            .product {
+              font-size: 18px;
+
+              img {
+                width: 80px;
+                margin-right: 20px;
+              }
+            }
+            &.price {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Checkout Area CSS
+  .your-orders-box {
+    padding-left: 0;
+
+    ul {
+      li {
+        img {
+          width: 50px;
+          margin-right: 15px;
+        }
+        div {
+          h4 {
+            font-size: 17px;
+          }
+          span {
+            font-size: 15px;
+          }
+        }
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .payment-method-box {
+    margin: {
+      top: 50px;
+      left: 0;
+    }
+    ul {
+      li {
+        padding: {
+          left: 20px;
+          right: 20px;
+        }
+      }
+    }
+    .bottom {
+      padding: 15px 20px 20px;
+
+      .default-btn {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Contact Area CSS
+  .contact-area {
+    .shape6 {
+      display: none;
+    }
+  }
+  .contact-image {
+    padding: {
+      left: 150px;
+      right: 10px;
+      top: 150px;
+    }
+    .contact-info {
+      top: 0;
+      padding: 25px;
+      max-width: 380px;
+
+      .box {
+        margin-bottom: 25px;
+
+        h3 {
+          margin-bottom: 12px;
+        }
+      }
+      .socials-link {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Instagram Area CSS
+  .instagram-area {
+    .row {
+      margin-bottom: -25px;
+
+      .col {
+        flex: 0 0 auto;
+        width: 16.6666666667%;
+      }
+    }
+  }
+  .instagram-post {
+    margin-bottom: 25px;
+  }
+
+  // Footer Area CSS
+  .footer-area {
+    .footer-items {
+      margin-left: 0;
+    }
+  }
+  .single-footer-widget {
+    .logo {
+      margin-bottom: 20px;
+    }
+    .custom-links {
+      li {
+        margin-bottom: 15px;
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  // Copyright Area CSS
+  .copyright-area {
+    p {
+      font-size: 15px;
+    }
+  }
+
+  // Back to Top CSS
+  #backtotop {
+    right: 30px;
+    bottom: 30px;
+  }
+
+  .container {
+    &.demo-four-container {
+      max-width: 960px;
+    }
+  }
+  .section-bg-area {
+    &::before {
+      display: none;
+    }
+  }
+  .inner-chatbot-widget {
+    padding: 100px 50px;
+    .chatbot-list {
+      li {
+        max-width: 254px;
+        font-size: 13px;
+      }
+    }
+  }
+  .inner-download-area {
+    .download-image {
+      position: absolute;
+      width: 420px;
+    }
+  }
+  .inner-follow-us {
+    .follow-image1 {
+      width: 270px;
+    }
+  }
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  // Navbar Area CSS
+  .navbar {
+    .navbar-nav {
+      .nav-item {
+        margin: {
+          left: 15px;
+          right: 15px;
+        }
+      }
+    }
+  }
+
+  // Banner Area CSS
+  .banner-content {
+    h1 {
+      font-size: 75px;
+      line-height: 1.1;
+      letter-spacing: -3px;
+    }
+    p {
+      max-width: 100%;
+    }
+    .default-btn {
+      margin-top: 15px;
+    }
+  }
+  .banner-search {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  // Main Banner Area CSS
+  .main-banner-image {
+    padding-right: 15px;
+
+    .box {
+      left: 55%;
+      top: 20px;
+    }
+    .typewriter {
+      left: 55%;
+      top: 100px;
+    }
+  }
+  .main-banner-content {
+    padding-left: 25px;
+    margin-bottom: 25px;
+
+    h1 {
+      font-size: 51px;
+      margin-bottom: 25px;
+      letter-spacing: -2px;
+    }
+    .default-btn {
+      margin-top: 10px;
+    }
+    div {
+      max-width: 490px;
+      margin: {
+        left: auto;
+        right: 50px;
+      }
+    }
+  }
+  .shape3 {
+    left: 39%;
+    bottom: 8%;
+  }
+  .shape4 {
+    top: 0;
+  }
+
+  // What We Do Area CSS
+  .what-we-do-img {
+    padding-right: 150px;
+
+    img {
+      &:nth-child(2) {
+        right: 0;
+        width: 120px;
+      }
+    }
+    .typewriter {
+      right: 0;
+      width: 350px;
+    }
+    &::before {
+      margin-right: 15px;
+    }
+  }
+
+  // Services Area CSS
+  .services-tabs {
+    .tabs {
+      .content {
+        margin-right: -40px;
+      }
+      .images {
+        padding: {
+          left: 40px;
+          right: 20px;
+          bottom: 100px;
+        }
+        &::before {
+          margin: {
+            left: 50px;
+            right: 0;
+            top: 0;
+          }
+        }
+        img {
+          &:nth-child(2) {
+            width: 90px;
+            right: -40px;
+          }
+          &:nth-child(3) {
+            right: -20px;
+            width: 190px;
+          }
+        }
+      }
+      .description {
+        padding-top: 70px;
+        margin-left: 70px;
+      }
+    }
+  }
+
+  // Features Area CSS
+  .single-feature-box {
+    padding-left: 190px;
+
+    h3 {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+  }
+
+  // Funfacts Area CSS
+  .single-funfact-box {
+    &::before {
+      right: -100%;
+    }
+    &::after {
+      right: -70%;
+    }
+  }
+  .funfacts-shape2 {
+    display: none;
+  }
+
+  // Why Choose Us Area CSS
+  .why-choose-left-content {
+    .image {
+      padding-right: 100px;
+
+      img {
+        &:nth-child(2) {
+          top: 200px;
+        }
+      }
+    }
+    .content {
+      margin-top: 125px;
+    }
+  }
+  .why-choose-right-content {
+    .content {
+      padding-left: 60px;
+    }
+    .image {
+      padding-left: 100px;
+
+      .box {
+        left: 0;
+      }
+    }
+  }
+  .single-why-choose-box {
+    .image {
+      height: 260px;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    &:hover {
+      .image {
+        img {
+          transform: translateY(-45px);
+        }
+      }
+    }
+  }
+  .col-lg-3 {
+    &:nth-child(2),
+    &:nth-child(4),
+    &:nth-child(6),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        h3 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(7),
+    &:nth-child(8) {
+      .single-why-choose-box {
+        .image {
+          img {
+            transform: translateY(-45px);
+          }
+        }
+        &:hover {
+          .image {
+            img {
+              transform: translateY(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // FAQ Area CSS
+  .faq-image {
+    padding: {
+      left: 15px;
+      right: 15px;
+    }
+  }
+
+  // Automation Area CSS
+  .automation-content {
+    padding-right: 0;
+
+    h2 {
+      font-size: 37px;
+    }
+  }
+  .automation-image {
+    padding: {
+      left: 5px;
+      right: 5px;
+    }
+  }
+  .automation-text {
+    padding-left: 0;
+    margin-top: 0;
+
+    .shape5 {
+      margin-bottom: 25px;
+    }
+  }
+  .shape7 {
+    left: 7%;
+    bottom: 10%;
+  }
+
+  // Integration Area CSS
+  .integration-box {
+    max-width: 930px;
+    margin: {
+      top: 160px;
+      bottom: 145px;
+    }
+  }
+  .integration-content {
+    max-width: 1000px;
+    padding: 40px 30px;
+
+    .box {
+      padding-left: 35px;
+    }
+  }
+
+  // Chatbot Area CSS
+  .chatbot-inner-box {
+    .image {
+      .typewriter {
+        left: 50px;
+      }
+    }
+  }
+
+  // Video Area CSS
+  .video-box {
+    .video-btn {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .shape6 {
+    right: 5%;
+  }
+
+  // Testimonials Area CSS
+  .testimonials-area {
+    .section-title {
+      padding-left: 50px;
+    }
+  }
+  .single-testimonial-box {
+    padding: 30px;
+
+    &::before {
+      top: 40px;
+      right: 15px;
+      font-size: 50px;
+    }
+  }
+  .testimonialsSwiper {
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 50px;
+      height: 50px;
+      margin-top: 40px;
+    }
+    .swiper-button-prev {
+      margin-left: 275px !important;
+    }
+  }
+
+  // Top Stories Area CSS
+  .topStoriesSwiper {
+    .ts-swiper-button-next,
+    .ts-swiper-button-prev {
+      left: -35px;
+    }
+    .ts-swiper-button-next {
+      right: -35px;
+      left: auto;
+    }
+  }
+
+  // Featured Posts Area CSS
+  .featured-trending-posts {
+    margin-left: -50px;
+
+    &::before {
+      left: 108px;
+    }
+  }
+  .featured-ads-box {
+    margin-left: -50px;
+  }
+
+  // Most Popular Area CSS
+  .top-news-posts {
+    .box {
+      padding-left: 40px;
+
+      .meta {
+        li {
+          margin-right: 25px;
+
+          .author {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 8px;
+            }
+          }
+          &::before {
+            top: 9px;
+            right: -15px;
+          }
+        }
+      }
+      &:before {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+      }
+    }
+    &::before {
+      left: 165px;
+    }
+  }
+  .popular-tags-box {
+    margin-top: 30px;
+  }
+  .ai-saas-news-box {
+    margin-top: 30px;
+
+    .box {
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+
+      .content {
+        .meta {
+          li {
+            margin-right: 25px;
+
+            .author {
+              img {
+                width: 22px;
+                height: 22px;
+                margin-right: 8px;
+              }
+              a {
+                margin-left: 5px;
+              }
+            }
+            &::before {
+              top: 10px;
+              right: -15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .single-most-popular-post {
+    margin-bottom: 30px;
+
+    .image {
+      overflow: hidden;
+      margin-right: 5px;
+
+      img {
+        transition: var(--transition);
+      }
+      .category {
+        left: 0;
+        top: 15px;
+        padding: 6px 15px;
+        position: absolute;
+        display: inline-block;
+        letter-spacing: -0.45px;
+        color: var(--whiteMainColor);
+        background-color: var(--primaryColor);
+
+        &.popular {
+          background-color: var(--secondaryColor);
+        }
+        &.new {
+          background-color: var(--blackColor);
+        }
+      }
+    }
+    .content {
+      padding-left: 0;
+      margin-left: -8px;
+
+      .meta {
+        margin-bottom: 15px;
+
+        li {
+          margin-right: 25px;
+
+          .author {
+            img {
+              width: 20px;
+              height: 20px;
+              margin-right: 8px;
+            }
+            a {
+              margin-left: 5px;
+            }
+          }
+          &::before {
+            top: 8px;
+            left: -14px;
+          }
+        }
+      }
+    }
+  }
+
+  // Blog Area CSS
+  .blog-items {
+    margin: {
+      left: -25px;
+      right: -25px;
+    }
+    .col-lg-4 {
+      padding: {
+        left: 25px;
+        right: 25px;
+      }
+    }
+  }
+  .single-blog-post {
+    .content {
+      h3 {
+        line-height: 1.5;
+      }
+    }
+  }
+
+  // Product Details Area CSS
+  .product-details-image {
+    margin-right: 30px;
+  }
+
+  // Checkout Area CSS
+  .your-orders-box {
+    padding-left: 15px;
+  }
+  .payment-method-box {
+    margin: {
+      top: 50px;
+      left: 15px;
+    }
+  }
+
+  // Contact Area CSS
+  .contact-area {
+    .shape6 {
+      top: 5%;
+      right: 22.5%;
+    }
+  }
+  .contact-image {
+    padding: {
+      left: 250px;
+      right: 25px;
+    }
+    .contact-info {
+      top: 0;
+    }
+  }
+
+  // Footer Area CSS
+  .footer-area {
+    .footer-items {
+      margin-left: 0;
+    }
+  }
+
+  .section-bg-area {
+    &::before {
+      left: 25px;
+      right: 25px;
+    }
+  }
+}
+
+/* Min width 1750px */
+@media only screen and (min-width: 1750px) {
+  // Container
+  .container {
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+  .container-fluid {
+    max-width: 1920px;
+    padding: {
+      left: 100px !important;
+      right: 100px !important;
+    }
+  }
+
+  // Banner Area CSS
+  .banner-area {
+    &::before {
+      height: 190px;
+    }
+  }
+  .banner-content {
+    h1 {
+      font-size: 100px;
+    }
+  }
+
+  // Main Banner Area CSS
+  .main-banner-image {
+    padding-right: 80px;
+
+    .box {
+      top: 70px;
+    }
+    .typewriter {
+      top: 160px;
+    }
+  }
+  .main-banner-content {
+    h1 {
+      font-size: 70px;
+      letter-spacing: -3.5px;
+    }
+  }
+  .shape3 {
+    left: 51%;
+    bottom: 10%;
+  }
+  .shape4 {
+    top: 14%;
+    left: 43%;
+  }
+
+  // Banner Posts Area CSS
+  .single-banner-post {
+    .content {
+      padding: 18px 30px;
+
+      h3 {
+        font-size: 24px;
+      }
+    }
+  }
+
+  // Instagram Area CSS
+  .instagram-area {
+    .row {
+      margin: {
+        left: -17px;
+        right: -17px;
+      }
+      .col {
+        padding: {
+          left: 17px;
+          right: 17px;
+        }
+      }
+    }
+  }
+
+  // Blog Area CSS
+  .blog-area {
+    .shape6 {
+      right: 10%;
+
+      &.style-two {
+        bottom: 12%;
+        right: 3%;
+      }
+    }
+  }
+
+  // Pricing Area CSS
+  .pricing-area {
+    .shape6 {
+      left: 18%;
+    }
+  }
+  .shape6 {
+    right: 18%;
+  }
+
+  // Popular Articles Area CSS
+  .popular-articles-area {
+    .container-fluid {
+      padding: {
+        left: 150px;
+        right: 150px;
+      }
+      &:nth-child(2) {
+        padding: {
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+  .single-popular-article-post {
+    padding: {
+      left: 108px;
+      right: 30px;
+    }
+  }
+  .popular-articles-inner {
+    padding: {
+      left: 150px;
+      right: 150px;
+    }
+    .popularArticlesSwiper {
+      .swiper-slide {
+        &.swiper-slide-active {
+          .single-popular-article-post {
+            padding: {
+              left: 0;
+              right: 100px;
+            }
+          }
+        }
+      }
+    }
+    .pa-swiper-button-next,
+    .pa-swiper-button-prev {
+      right: 150px;
+    }
+    .pa-swiper-button-prev {
+      right: 190px;
+    }
+  }
+
+  // Top Stories Area CSS
+  .topStoriesSwiper {
+    .ts-swiper-button-next,
+    .ts-swiper-button-prev {
+      left: -55px;
+    }
+    .ts-swiper-button-next {
+      left: auto;
+      right: -55px;
+    }
+  }
+}
